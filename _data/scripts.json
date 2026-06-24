@@ -6,7 +6,7 @@
         "tags": [
             "embeds"
         ],
-        "path": "./downloads/Scripts/Embeds/_lib.zip"
+        "path": "./downloads/Scripts/Embeds/lib.zip"
     },
     {
         "title": "Module Folder",
@@ -15,7 +15,7 @@
         "tags": [
             "Embeds"
         ],
-        "path": "./downloads/Scripts/Embeds/_module.zip"
+        "path": "./downloads/Scripts/Embeds/module.zip"
     },
     {
         "title": "Script Template - Editor",
@@ -1623,7 +1623,7 @@
             "entity",
             "layers"
         ],
-        "path": "./downloads/Scripts/Visual/_entity_outliner.zip"
+        "path": "./downloads/Scripts/Visual/entity_outliner.zip"
     },
     {
         "title": "Hat - Bunny Ears",
@@ -1634,7 +1634,7 @@
             "hat",
             "player"
         ],
-        "path": "./downloads/Scripts/Visual/_bunny_ears.zip"
+        "path": "./downloads/Scripts/Visual/bunny_ears.zip"
     },
     {
         "title": "Hat - Custom ",
@@ -1645,7 +1645,7 @@
             "hat",
             "player"
         ],
-        "path": "./downloads/Scripts/Visual/_custom_hat.zip"
+        "path": "./downloads/Scripts/Visual/custom_hat.zip"
     },
     {
         "title": "Hat - Santa Hat",
@@ -1656,7 +1656,7 @@
             "hat",
             "player"
         ],
-        "path": "./downloads/Scripts/Visual/_santa_hat.zip"
+        "path": "./downloads/Scripts/Visual/santa_hat.zip"
     },
     {
         "title": "Seamless",
@@ -1666,7 +1666,7 @@
             "art",
             "layers"
         ],
-        "path": "./downloads/Scripts/Visual/_seamless.zip"
+        "path": "./downloads/Scripts/Visual/seamless.zip"
     },
     {
         "title": "Time Of Day Fog",
@@ -1676,7 +1676,7 @@
             "fog",
             "clock"
         ],
-        "path": "./downloads/Scripts/Visual/_time_of_day_fog.zip"
+        "path": "./downloads/Scripts/Visual/time_of_day_fog.zip"
     },
     {
         "title": "Custom Music",
@@ -1904,7 +1904,7 @@
             "plugin",
             "ledge-cancel"
         ],
-        "path": "./downloads/Scripts/Editor_Tools/_ledge_cancel_tracker.cpp"
+        "path": "./downloads/Scripts/Editor_Tools/ledge_cancel_tracker.cpp"
     },
     {
         "title": "Legacy Low Percent Plugin",
@@ -2040,7 +2040,7 @@
             "prop",
             "visual"
         ],
-        "path": "./downloads/Scripts/Editor_Tools/_advance_tools.zip"
+        "path": "./downloads/Scripts/Editor_Tools/advance_tools.zip"
     },
     {
         "title": "Dust Tracker 2 Plugin",
@@ -2054,7 +2054,7 @@
             "visual",
             "replay"
         ],
-        "path": "./downloads/Scripts/Editor_Tools/_dusttracker_2.zip"
+        "path": "./downloads/Scripts/Editor_Tools/dusttracker_2.zip"
     },
     {
         "title": "Bastion Stairs",
@@ -2168,7 +2168,7 @@
         "tags": [
             "new-gameplay"
         ],
-        "path": "./downloads/Scripts/Major_Overhaul/_100m_freestyle.zip"
+        "path": "./downloads/Scripts/Major_Overhaul/100m_freestyle.zip"
     },
     {
         "title": "3D",
@@ -2177,7 +2177,7 @@
         "tags": [
             "new-gameplay"
         ],
-        "path": "./downloads/Scripts/Major_Overhaul/_3d_gameplay.zip"
+        "path": "./downloads/Scripts/Major_Overhaul/3d_gameplay.zip"
     },
     {
         "title": "Batman",
@@ -2187,7 +2187,7 @@
             "plugin",
             "new-gameplay"
         ],
-        "path": "./downloads/Scripts/Major_Overhaul/_batman.zip"
+        "path": "./downloads/Scripts/Major_Overhaul/batman.zip"
     },
     {
         "title": "Canyon Plane Shooter",
@@ -2197,7 +2197,7 @@
             "new-gameplay",
             "mouse"
         ],
-        "path": "./downloads/Scripts/Major_Overhaul/_canyon_plane_shooter.zip"
+        "path": "./downloads/Scripts/Major_Overhaul/canyon_plane_shooter.zip"
     },
     {
         "title": "Chaos",
@@ -2206,7 +2206,7 @@
         "tags": [
             "new-gameplay"
         ],
-        "path": "./downloads/Scripts/Major_Overhaul/_chaos_dustforce.zip"
+        "path": "./downloads/Scripts/Major_Overhaul/chaos_dustforce.zip"
     },
     {
         "title": "Chess",
@@ -2216,7 +2216,7 @@
             "new-gameplay",
             "mouse"
         ],
-        "path": "./downloads/Scripts/Major_Overhaul/_chess.zip"
+        "path": "./downloads/Scripts/Major_Overhaul/chess.zip"
     },
     {
         "title": "Dusters Rift",
@@ -2226,7 +2226,7 @@
             "new-gameplay",
             "mouse"
         ],
-        "path": "./downloads/Scripts/Major_Overhaul/_dusters_rift.zip"
+        "path": "./downloads/Scripts/Major_Overhaul/dusters_rift.zip"
     },
     {
         "title": "Helping Hands",
@@ -2236,7 +2236,7 @@
             "plugin",
             "multiplayer"
         ],
-        "path": "./downloads/Scripts/Major_Overhaul/_helping_hands.zip"
+        "path": "./downloads/Scripts/Major_Overhaul/helping_hands.zip"
     },
     {
         "title": "Knighthall Simulator",
@@ -2245,7 +2245,7 @@
         "tags": [
             "new-gameplay"
         ],
-        "path": "./downloads/Scripts/Major_Overhaul/_knighthall_simulator.zip"
+        "path": "./downloads/Scripts/Major_Overhaul/knighthall_simulator.zip"
     },
     {
         "title": "Multiplayer - Hot Potato",
@@ -2255,7 +2255,7 @@
             "new-gameplay",
             "multiplayer"
         ],
-        "path": "./downloads/Scripts/Major_Overhaul/_multiplayer_hotpotato.zip"
+        "path": "./downloads/Scripts/Major_Overhaul/multiplayer_hotpotato.zip"
     },
     {
         "title": "Pokermans",
@@ -2264,7 +2264,7 @@
         "tags": [
             "new-gameplay"
         ],
-        "path": "./downloads/Scripts/Major_Overhaul/_pokermans_plugin.zip"
+        "path": "./downloads/Scripts/Major_Overhaul/pokermans_plugin.zip"
     },
     {
         "title": "PRNG",
@@ -2274,7 +2274,7 @@
             "new-gameplay",
             "rng"
         ],
-        "path": "./downloads/Scripts/Major_Overhaul/_prng.zip"
+        "path": "./downloads/Scripts/Major_Overhaul/prng.zip"
     },
     {
         "title": "Rhythm Force",
@@ -2283,7 +2283,7 @@
         "tags": [
             "new-gameplay"
         ],
-        "path": "./downloads/Scripts/Major_Overhaul/_rhythm_force.zip"
+        "path": "./downloads/Scripts/Major_Overhaul/rhythm_force.zip"
     },
     {
         "title": "Rifle",
@@ -2293,7 +2293,7 @@
             "laser",
             "new-gameplay"
         ],
-        "path": "./downloads/Scripts/Major_Overhaul/_rifle.zip"
+        "path": "./downloads/Scripts/Major_Overhaul/rifle.zip"
     },
     {
         "title": "Rope Dart",
@@ -2302,7 +2302,7 @@
         "tags": [
             "new-gameplay"
         ],
-        "path": "./downloads/Scripts/Major_Overhaul/_rope_dart.zip"
+        "path": "./downloads/Scripts/Major_Overhaul/rope_dart.zip"
     },
     {
         "title": "Shooter Man",
@@ -2311,7 +2311,7 @@
         "tags": [
             "new-gameplay"
         ],
-        "path": "./downloads/Scripts/Major_Overhaul/_shooter_man.zip"
+        "path": "./downloads/Scripts/Major_Overhaul/shooter_man.zip"
     },
     {
         "title": "Super Meat Boy",
@@ -2320,7 +2320,7 @@
         "tags": [
             "new-gameplay"
         ],
-        "path": "./downloads/Scripts/Major_Overhaul/_super_meat_boy.zip"
+        "path": "./downloads/Scripts/Major_Overhaul/super_meat_boy.zip"
     },
     {
         "title": "Multiplayer - Survival Balance Patch",
@@ -2330,7 +2330,7 @@
             "new-gameplay",
             "multiplayer"
         ],
-        "path": "./downloads/Scripts/Major_Overhaul/_survival_patch.zip"
+        "path": "./downloads/Scripts/Major_Overhaul/survival_patch.zip"
     },
     {
         "title": "Target Test",
@@ -2339,6 +2339,6 @@
         "tags": [
             "new-gameplay"
         ],
-        "path": "./downloads/Scripts/Major_Overhaul/_target_test.zip"
+        "path": "./downloads/Scripts/Major_Overhaul/target_test.zip"
     }
 ]
