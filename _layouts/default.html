@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>{{ page.title }} | DustStuff</title>
+	<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+</head>
+
+<body class="{{ page.body_class }}">
+	{% include navbar.html %}
+
+	<div class="page-content {% if page.url == '/' %}home-content{% endif %}">
+		{{ content }}
+	</div>
+
+	<footer class="site-footer">
+		Created and maintained by
+		<a href="https://discord.com/users/165860638080368640">Miles</a>,
+		and hosted on
+		<a href="https://github.com/milesmccray/DustStuff">GitHub</a>.
+	</footer>
+</body>
+
+</html>

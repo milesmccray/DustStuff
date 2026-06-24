@@ -1,0 +1,1388 @@
+[
+    {
+        "title": "Cherry - Apple",
+        "author": "Snow",
+        "category": "Entities",
+        "path": "./downloads/Sprites/Entities/Apples/ap-cherry",
+        "imagePath": "./downloads/Sprites/IMAGES/Entities/Apples/ap-cherry.gif"
+    },
+    {
+        "title": "Companion Cube - Apple",
+        "author": "Skyhawk",
+        "category": "Entities",
+        "path": "./downloads/Sprites/Entities/Apples/ap-companionCube",
+        "imagePath": "./downloads/Sprites/IMAGES/Entities/Apples/ap-companionCube.gif"
+    },
+    {
+        "title": "Dragonfruit - Apple",
+        "author": "Skyhawk",
+        "category": "Entities",
+        "path": "./downloads/Sprites/Entities/Apples/ap-dragonfruit",
+        "imagePath": "./downloads/Sprites/IMAGES/Entities/Apples/ap-dragonfruit.gif"
+    },
+    {
+        "title": "Easter Egg - Apple",
+        "author": "Tahizuna",
+        "category": "Entities",
+        "path": "./downloads/Sprites/Entities/Apples/ap-easteregg",
+        "imagePath": "./downloads/Sprites/IMAGES/Entities/Apples/ap-easteregg.gif"
+    },
+    {
+        "title": "Easter Egg Striped - Apple",
+        "author": "Tahizuna",
+        "category": "Entities",
+        "path": "./downloads/Sprites/Entities/Apples/ap-eastereggStriped",
+        "imagePath": "./downloads/Sprites/IMAGES/Entities/Apples/ap-eastereggStriped.gif"
+    },
+    {
+        "title": "Eggplant - Apple",
+        "author": "Skyhawk",
+        "category": "Entities",
+        "path": "./downloads/Sprites/Entities/Apples/ap-eggplant",
+        "imagePath": "./downloads/Sprites/IMAGES/Entities/Apples/ap-eggplant.gif"
+    },
+    {
+        "title": "Kapple - Apple",
+        "author": "Skyhawk",
+        "category": "Entities",
+        "path": "./downloads/Sprites/Entities/Apples/ap-Kapple",
+        "imagePath": "./downloads/Sprites/IMAGES/Entities/Apples/ap-Kapple.gif"
+    },
+    {
+        "title": "Outlined - Apple",
+        "author": "Typhios",
+        "category": "Entities",
+        "path": "./downloads/Sprites/Entities/Apples/ap-outlined",
+        "imagePath": "./downloads/Sprites/IMAGES/Entities/Apples/ap-outlined.gif"
+    },
+    {
+        "title": "Outlined Enemies",
+        "author": "Typhios",
+        "category": "Entities",
+        "path": "./downloads/Sprites/Entities/Enemies/outlinedEnemies.zip",
+        "imagePath": "./downloads/Sprites/IMAGES/Entities/Enemies/outlinedEnemies.gif"
+    },
+    {
+        "title": "Invisible Stoneboss",
+        "author": "Kau",
+        "category": "Entities",
+        "path": "./downloads/Sprites/Entities/Enemies/sboss-invisible",
+        "imagePath": "./downloads/Sprites/IMAGES/Entities/Enemies/sboss-invisible.gif"
+    },
+    {
+        "title": "Kappa Stoneboss",
+        "author": "Kau",
+        "category": "Entities",
+        "path": "./downloads/Sprites/Entities/Enemies/sboss-kappa",
+        "imagePath": "./downloads/Sprites/IMAGES/Entities/Enemies/sboss-kappa.gif"
+    },
+    {
+        "title": "Biker Stonebro",
+        "author": "Skyhawk",
+        "category": "Entities",
+        "path": "./downloads/Sprites/Entities/Enemies/sbro-biker",
+        "imagePath": "./downloads/Sprites/IMAGES/Entities/Enemies/sbro-biker.gif"
+    },
+    {
+        "title": "Gnome Tome",
+        "author": "Skyhawk",
+        "category": "Misc",
+        "path": "./downloads/Sprites/Misc/scorebook-gnome",
+        "imagePath": "./downloads/Sprites/IMAGES/Misc/scorebook-gnome.gif"
+    },
+    {
+        "title": "Franker Keys",
+        "author": "Typhios",
+        "category": "Misc",
+        "path": "./downloads/Sprites/Misc/Key-Replacement/key-frankerKey.zip",
+        "imagePath": "./downloads/Sprites/IMAGES/Misc/Key-Replacement/key-frankerKey.png"
+    },
+    {
+        "title": "BlastZ Super",
+        "author": "Calistus",
+        "category": "Misc",
+        "path": "./downloads/Sprites/Misc/Supers/super-blastZ.zip",
+        "imagePath": "./downloads/Sprites/IMAGES/Misc/Supers/super-blastZ.gif"
+    },
+    {
+        "title": "Dreddgasm Super",
+        "author": "Calistus",
+        "category": "Misc",
+        "path": "./downloads/Sprites/Misc/Supers/super-dreddgasm.zip",
+        "imagePath": "./downloads/Sprites/IMAGES/Misc/Supers/super-dreddgasm.gif"
+    },
+    {
+        "title": "FrankerZ Super",
+        "author": "Typhios",
+        "category": "Misc",
+        "path": "./downloads/Sprites/Misc/Supers/super-frankerZ.zip",
+        "imagePath": "./downloads/Sprites/IMAGES/Misc/Supers/super-frankerZ.gif"
+    },
+    {
+        "title": "Kappa Super",
+        "author": "Typhios",
+        "category": "Misc",
+        "path": "./downloads/Sprites/Misc/Supers/super-kappa.zip",
+        "imagePath": "./downloads/Sprites/IMAGES/Misc/Supers/super-kappa.gif"
+    },
+    {
+        "title": "Dustwraith Galaxy",
+        "author": "Maddy",
+        "category": "Bosses",
+        "path": "./downloads/Sprites/Characters/Bosses/Dustwraith/bdw-galaxy",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Bosses/Dustwraith/bdw-galaxy.png"
+    },
+    {
+        "title": "Leafsprite Galaxy",
+        "author": "Maddy",
+        "category": "Bosses",
+        "path": "./downloads/Sprites/Characters/Bosses/Leafsprite/bls-galaxy",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Bosses/Leafsprite/bls-galaxy.png"
+    },
+    {
+        "title": "Trashking Galaxy",
+        "author": "Maddy",
+        "category": "Bosses",
+        "path": "./downloads/Sprites/Characters/Bosses/Slimeboss/bsb-galaxy",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Bosses/Slimeboss/bsb-galaxy.png"
+    },
+    {
+        "title": "Slimeboss Galaxy",
+        "author": "Maddy",
+        "category": "Bosses",
+        "path": "./downloads/Sprites/Characters/Bosses/Trashking/btk-galaxy",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Bosses/Trashking/btk-galaxy.png"
+    },
+    {
+        "title": "Arche Klein",
+        "author": "Snow",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-archeKlein",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-archeKlein.gif"
+    },
+    {
+        "title": "Black",
+        "author": "Snow",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-black",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-black.gif"
+    },
+    {
+        "title": "Blue",
+        "author": "Snow",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-blue",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-blue.gif"
+    },
+    {
+        "title": "Blue-Black",
+        "author": "Eponn",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-blueBlack",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-blueBlack.gif"
+    },
+    {
+        "title": "Casual Blue",
+        "author": "Skyhawk",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-casualBlue",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-casualBlue.gif"
+    },
+    {
+        "title": "Casual Red",
+        "author": "Skyhawk",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-casualRed",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-casualRed.gif"
+    },
+    {
+        "title": "Catgirl",
+        "author": "TMC",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-cat",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-cat.gif"
+    },
+    {
+        "title": "Clover",
+        "author": "TwinkieSWF",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-clover",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-clover.gif"
+    },
+    {
+        "title": "Dark Blue",
+        "author": "Jdude",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-darkBlue",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-darkBlue.gif"
+    },
+    {
+        "title": "Dark",
+        "author": "mister_simon",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-darkGirl",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-darkGirl.gif"
+    },
+    {
+        "title": "Dark Purple",
+        "author": "Rexy",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-darkPurple",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-darkPurple.gif"
+    },
+    {
+        "title": "Dark Red",
+        "author": "Miles",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-darkRed",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-darkRed.gif"
+    },
+    {
+        "title": "Denim",
+        "author": "C",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-denim",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-denim.gif"
+    },
+    {
+        "title": "Electric",
+        "author": "Eponn",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-electric",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-electric.gif"
+    },
+    {
+        "title": "Galaxy",
+        "author": "Maddy",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-galaxy",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-galaxy.gif"
+    },
+    {
+        "title": "Ice",
+        "author": "Snow",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-ice",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-ice.gif"
+    },
+    {
+        "title": "Katara",
+        "author": "Kau",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-katara",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-katara.gif"
+    },
+    {
+        "title": "Mario",
+        "author": "C",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-mario",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-mario.gif"
+    },
+    {
+        "title": "Maroon",
+        "author": "HGT",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-maroon",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-maroon.gif"
+    },
+    {
+        "title": "Neon Blue",
+        "author": "Snow",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-neonBlue",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-neonBlue.gif"
+    },
+    {
+        "title": "Outlined",
+        "author": "Typhios",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-outlined",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-outlined.gif"
+    },
+    {
+        "title": "Pink-Red",
+        "author": "Ukkiez",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-pinkRed",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-pinkRed.gif"
+    },
+    {
+        "title": "Purple",
+        "author": "Snow",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-purple",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-purple.gif"
+    },
+    {
+        "title": "Purple-Gold",
+        "author": "?",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-purpleGold",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-purpleGold.gif"
+    },
+    {
+        "title": "Purple Outline",
+        "author": "Snow",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-purpleOutlined",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-purpleOutlined.gif"
+    },
+    {
+        "title": "White-Red",
+        "author": "C",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-whiteRed",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-whiteRed.gif"
+    },
+    {
+        "title": "Yellow",
+        "author": "Snow",
+        "category": "Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters/Dustgirl/dg-yellow",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustgirl/dg-yellow.gif"
+    },
+    {
+        "title": "Banana",
+        "author": "Skyhawk",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-banana",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-banana.gif"
+    },
+    {
+        "title": "Banana 2",
+        "author": "Skyhawk",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-banana2",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-banana2.gif"
+    },
+    {
+        "title": "Black",
+        "author": "Snow",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-black",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-black.gif"
+    },
+    {
+        "title": "Blue",
+        "author": "Snow",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-blue",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-blue.gif"
+    },
+    {
+        "title": "Casual",
+        "author": "Skyhawk",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-casual",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-casual.gif"
+    },
+    {
+        "title": "Chalk",
+        "author": "C",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-chalk",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-chalk.gif"
+    },
+    {
+        "title": "Christmas",
+        "author": "C",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-christmas",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-christmas.gif"
+    },
+    {
+        "title": "Dark",
+        "author": "mister_simon",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-darkKid",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-darkKid.gif"
+    },
+    {
+        "title": "Dark Purple",
+        "author": "Miles",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-darkPurple",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-darkPurple.gif"
+    },
+    {
+        "title": "Dark Purple 2",
+        "author": "Ukkiez",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-darkPurple2",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-darkPurple2.gif"
+    },
+    {
+        "title": "Galaxy",
+        "author": "Maddy",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-galaxy",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-galaxy.gif"
+    },
+    {
+        "title": "Green",
+        "author": "Snow",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-green",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-green.gif"
+    },
+    {
+        "title": "Ice",
+        "author": "Snow",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-ice",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-ice.gif"
+    },
+    {
+        "title": "Kirby",
+        "author": "ShurykaN",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-kirby",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-kirby.gif"
+    },
+    {
+        "title": "Light Blue",
+        "author": "Snow",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-lightBlue",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-lightBlue.gif"
+    },
+    {
+        "title": "Mime",
+        "author": "C",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-mime",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-mime.gif"
+    },
+    {
+        "title": "Neon Blue",
+        "author": "Snow",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-neonBlue",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-neonBlue.gif"
+    },
+    {
+        "title": "Neon Green",
+        "author": "Snow",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-neonGreen",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-neonGreen.gif"
+    },
+    {
+        "title": "Neon Green 2",
+        "author": "Jdude",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-neonGreen2",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-neonGreen2.gif"
+    },
+    {
+        "title": "Outlined",
+        "author": "Typhios",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-outlined",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-outlined.gif"
+    },
+    {
+        "title": "Peach",
+        "author": "Rexy",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-peach",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-peach.gif"
+    },
+    {
+        "title": "Pink",
+        "author": "Snow",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-pink",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-pink.gif"
+    },
+    {
+        "title": "Pink Outlined",
+        "author": "Snow",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-pinkOutlined",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-pinkOutlined.gif"
+    },
+    {
+        "title": "Toph",
+        "author": "C",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-toph",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-toph.gif"
+    },
+    {
+        "title": "White-Pink",
+        "author": "HGT",
+        "category": "Dustkid",
+        "path": "./downloads/Sprites/Players/Characters/Dustkid/dk-whitePink",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustkid/dk-whitePink.gif"
+    },
+    {
+        "title": "Aang",
+        "author": "C",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-aang",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-aang.gif"
+    },
+    {
+        "title": "Aang (Fast)",
+        "author": "Kau",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-aangFast",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-aangFast.gif"
+    },
+    {
+        "title": "Yotta Man",
+        "author": "Snow",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-black",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-black.gif"
+    },
+    {
+        "title": "Blue-Black",
+        "author": "Snow",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-blueBlack",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-blueBlack.gif"
+    },
+    {
+        "title": "Cardboard",
+        "author": "Snow",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-cardboard",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-cardboard.gif"
+    },
+    {
+        "title": "Casual",
+        "author": "Skyhawk",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-casual",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-casual.gif"
+    },
+    {
+        "title": "Cow",
+        "author": "Snow",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-cow",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-cow.gif"
+    },
+    {
+        "title": "Cyan",
+        "author": "Snow",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-cyan",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-cyan.gif"
+    },
+    {
+        "title": "Cyan Outlined",
+        "author": "Snow",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-cyanOutlined",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-cyanOutlined.gif"
+    },
+    {
+        "title": "Dahlia",
+        "author": "Snow",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-dahlia",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-dahlia.gif"
+    },
+    {
+        "title": "Darkblue",
+        "author": "Miles",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-darkBlue",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-darkBlue.gif"
+    },
+    {
+        "title": "Darkblue 2",
+        "author": "Rexy",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-darkBlue2",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-darkBlue2.gif"
+    },
+    {
+        "title": "Dark",
+        "author": "mister_simon",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-darkMan",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-darkMan.gif"
+    },
+    {
+        "title": "Demo",
+        "author": "Eponn",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-demo",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-demo.gif"
+    },
+    {
+        "title": "Denim",
+        "author": "C",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-denim",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-denim.gif"
+    },
+    {
+        "title": "o",
+        "author": "Skyhawk",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-dustmano",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-dustmano.gif"
+    },
+    {
+        "title": "Excitebike",
+        "author": "Kau",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-excitebike",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-excitebike.gif"
+    },
+    {
+        "title": "Frame Work",
+        "author": "Snow",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-frameWork",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-frameWork.gif"
+    },
+    {
+        "title": "Galaxy",
+        "author": "Maddy",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-galaxy",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-galaxy.gif"
+    },
+    {
+        "title": "Ghost",
+        "author": "C",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-ghost",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-ghost.gif"
+    },
+    {
+        "title": "Glowing",
+        "author": "Snow",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-glowOutline",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-glowOutline.gif"
+    },
+    {
+        "title": "Green-Blue",
+        "author": "Eponn",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-greenBlue",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-greenBlue.gif"
+    },
+    {
+        "title": "Grey-White",
+        "author": "Snow",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-greyWhite",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-greyWhite.gif"
+    },
+    {
+        "title": "Ice",
+        "author": "Snow",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-ice",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-ice.gif"
+    },
+    {
+        "title": "Lime",
+        "author": "Snow",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-lime",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-lime.gif"
+    },
+    {
+        "title": "Mint",
+        "author": "HGT",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-mint",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-mint.gif"
+    },
+    {
+        "title": "Neon Red",
+        "author": "Snow",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-neonRed",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-neonRed.gif"
+    },
+    {
+        "title": "Orange",
+        "author": "Snow",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-orange",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-orange.gif"
+    },
+    {
+        "title": "Orange-Purple",
+        "author": "Eponn",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-orangePurple",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-orangePurple.gif"
+    },
+    {
+        "title": "Outlined",
+        "author": "Typhios",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-outlined",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-outlined.gif"
+    },
+    {
+        "title": "Peepo",
+        "author": "Skyhawk",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-peepo",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-peepo.gif"
+    },
+    {
+        "title": "Pink",
+        "author": "Snow",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-pink",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-pink.gif"
+    },
+    {
+        "title": "Pink 2",
+        "author": "Jdude",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-pink2",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-pink2.gif"
+    },
+    {
+        "title": "Prisoner",
+        "author": "C",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-prison",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-prison.gif"
+    },
+    {
+        "title": "Purple",
+        "author": "Eponn",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-purple",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-purple.gif"
+    },
+    {
+        "title": "Red",
+        "author": "Snow",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-red",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-red.gif"
+    },
+    {
+        "title": "Sanic",
+        "author": "Snow",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-sanic",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-sanic.gif"
+    },
+    {
+        "title": "Steel-Blue",
+        "author": "Ukkiez",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-steelBlue",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-steelBlue.gif"
+    },
+    {
+        "title": "Ukkiez Pensive",
+        "author": "Kau",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-ukkiezPensive",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-ukkiezPensive.gif"
+    },
+    {
+        "title": "Yotta",
+        "author": "Tashizuna",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-yotta",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-yotta.gif"
+    },
+    {
+        "title": "Zero (Megaman X)",
+        "author": "ShurykaN",
+        "category": "Dustman",
+        "path": "./downloads/Sprites/Players/Characters/Dustman/dm-zero",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustman/dm-zero.gif"
+    },
+    {
+        "title": "Black",
+        "author": "Snow",
+        "category": "Dustworth",
+        "path": "./downloads/Sprites/Players/Characters/Dustworth/dw-black",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustworth/dw-black.gif"
+    },
+    {
+        "title": "Black-White",
+        "author": "Eponn",
+        "category": "Dustworth",
+        "path": "./downloads/Sprites/Players/Characters/Dustworth/dw-blackWhite",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustworth/dw-blackWhite.gif"
+    },
+    {
+        "title": "Blue",
+        "author": "Snow",
+        "category": "Dustworth",
+        "path": "./downloads/Sprites/Players/Characters/Dustworth/dw-blue",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustworth/dw-blue.gif"
+    },
+    {
+        "title": "Blue Outlined",
+        "author": "Snow",
+        "category": "Dustworth",
+        "path": "./downloads/Sprites/Players/Characters/Dustworth/dw-blueOutlined",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustworth/dw-blueOutlined.gif"
+    },
+    {
+        "title": "Brown",
+        "author": "?",
+        "category": "Dustworth",
+        "path": "./downloads/Sprites/Players/Characters/Dustworth/dw-brown",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustworth/dw-brown.gif"
+    },
+    {
+        "title": "Camo",
+        "author": "Skyhawk",
+        "category": "Dustworth",
+        "path": "./downloads/Sprites/Players/Characters/Dustworth/dw-camo",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustworth/dw-camo.gif"
+    },
+    {
+        "title": "Construction",
+        "author": "C",
+        "category": "Dustworth",
+        "path": "./downloads/Sprites/Players/Characters/Dustworth/dw-construction",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustworth/dw-construction.gif"
+    },
+    {
+        "title": "Dark Green",
+        "author": "Miles",
+        "category": "Dustworth",
+        "path": "./downloads/Sprites/Players/Characters/Dustworth/dw-darkGreen",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustworth/dw-darkGreen.gif"
+    },
+    {
+        "title": "Dark Green 2",
+        "author": "Rexy",
+        "category": "Dustworth",
+        "path": "./downloads/Sprites/Players/Characters/Dustworth/dw-darkGreen2",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustworth/dw-darkGreen2.gif"
+    },
+    {
+        "title": "Dark",
+        "author": "mister_simon",
+        "category": "Dustworth",
+        "path": "./downloads/Sprites/Players/Characters/Dustworth/dw-darkWorth",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustworth/dw-darkWorth.gif"
+    },
+    {
+        "title": "Flag Worth",
+        "author": "Skyhawk",
+        "category": "Dustworth",
+        "path": "./downloads/Sprites/Players/Characters/Dustworth/dw-flag",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustworth/dw-flag.gif"
+    },
+    {
+        "title": "Framework",
+        "author": "Snow",
+        "category": "Dustworth",
+        "path": "./downloads/Sprites/Players/Characters/Dustworth/dw-frameWork",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustworth/dw-frameWork.gif"
+    },
+    {
+        "title": "Galaxy",
+        "author": "Maddy",
+        "category": "Dustworth",
+        "path": "./downloads/Sprites/Players/Characters/Dustworth/dw-galaxy",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustworth/dw-galaxy.gif"
+    },
+    {
+        "title": "Gentleman",
+        "author": "Jdude",
+        "category": "Dustworth",
+        "path": "./downloads/Sprites/Players/Characters/Dustworth/dw-gentleman",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustworth/dw-gentleman.gif"
+    },
+    {
+        "title": "Ice",
+        "author": "Snow",
+        "category": "Dustworth",
+        "path": "./downloads/Sprites/Players/Characters/Dustworth/dw-ice",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustworth/dw-ice.gif"
+    },
+    {
+        "title": "Iroh",
+        "author": "Kau",
+        "category": "Dustworth",
+        "path": "./downloads/Sprites/Players/Characters/Dustworth/dw-iroh",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustworth/dw-iroh.gif"
+    },
+    {
+        "title": "Knackles",
+        "author": "Skyhawk",
+        "category": "Dustworth",
+        "path": "./downloads/Sprites/Players/Characters/Dustworth/dw-knackles",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustworth/dw-knackles.gif"
+    },
+    {
+        "title": "Light Green",
+        "author": "Ukkiez",
+        "category": "Dustworth",
+        "path": "./downloads/Sprites/Players/Characters/Dustworth/dw-lightGreen",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustworth/dw-lightGreen.gif"
+    },
+    {
+        "title": "Luigi",
+        "author": "C",
+        "category": "Dustworth",
+        "path": "./downloads/Sprites/Players/Characters/Dustworth/dw-luigi",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustworth/dw-luigi.gif"
+    },
+    {
+        "title": "Neon Purple",
+        "author": "Snow",
+        "category": "Dustworth",
+        "path": "./downloads/Sprites/Players/Characters/Dustworth/dw-neonPurple",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustworth/dw-neonPurple.gif"
+    },
+    {
+        "title": "Noir",
+        "author": "C",
+        "category": "Dustworth",
+        "path": "./downloads/Sprites/Players/Characters/Dustworth/dw-noir",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustworth/dw-noir.gif"
+    },
+    {
+        "title": "Outlined",
+        "author": "Typhios",
+        "category": "Dustworth",
+        "path": "./downloads/Sprites/Players/Characters/Dustworth/dw-outlined",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustworth/dw-outlined.gif"
+    },
+    {
+        "title": "Santa",
+        "author": "C",
+        "category": "Dustworth",
+        "path": "./downloads/Sprites/Players/Characters/Dustworth/dw-santa",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustworth/dw-santa.gif"
+    },
+    {
+        "title": "Sea Blue",
+        "author": "HGT",
+        "category": "Dustworth",
+        "path": "./downloads/Sprites/Players/Characters/Dustworth/dw-seaBlue",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters/Dustworth/dw-seaBlue.gif"
+    },
+    {
+        "title": "Arche Klein",
+        "author": "Snow",
+        "category": "Virtual Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustgirl/vdg-archeKlein",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustgirl/vdg-archeKlein.gif"
+    },
+    {
+        "title": "Black",
+        "author": "Snow",
+        "category": "Virtual Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustgirl/vdg-black",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustgirl/vdg-black.gif"
+    },
+    {
+        "title": "Clover",
+        "author": "TwinkieSWF",
+        "category": "Virtual Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustgirl/vdg-clover",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustgirl/vdg-clover.gif"
+    },
+    {
+        "title": "Dark",
+        "author": "mister_simon",
+        "category": "Virtual Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustgirl/vdg-darkGirl",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustgirl/vdg-darkGirl.gif"
+    },
+    {
+        "title": "Dark Purple",
+        "author": "Rexy",
+        "category": "Virtual Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustgirl/vdg-darkPurple",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustgirl/vdg-darkPurple.gif"
+    },
+    {
+        "title": "Ice",
+        "author": "Snow",
+        "category": "Virtual Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustgirl/vdg-ice",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustgirl/vdg-ice.gif"
+    },
+    {
+        "title": "Neon Blue",
+        "author": "Snow",
+        "category": "Virtual Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustgirl/vdg-neonBlue",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustgirl/vdg-neonBlue.gif"
+    },
+    {
+        "title": "Outlined",
+        "author": "Skyhawk",
+        "category": "Virtual Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustgirl/vdg-outlined",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustgirl/vdg-outlined.gif"
+    },
+    {
+        "title": "Yellow",
+        "author": "Snow",
+        "category": "Virtual Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustgirl/vdg-yellow",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustgirl/vdg-yellow.gif"
+    },
+    {
+        "title": "Zetta Proof",
+        "author": "Eponn",
+        "category": "Virtual Dustgirl",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustgirl/vdg-zetta",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustgirl/vdg-zetta.gif"
+    },
+    {
+        "title": "Black",
+        "author": "Snow",
+        "category": "Virtual Dustkid",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustkid/vdk-black",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustkid/vdk-black.gif"
+    },
+    {
+        "title": "Dark",
+        "author": "mister_simon",
+        "category": "Virtual Dustkid",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustkid/vdk-darkKid",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustkid/vdk-darkKid.gif"
+    },
+    {
+        "title": "Ice",
+        "author": "Snow",
+        "category": "Virtual Dustkid",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustkid/vdk-ice",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustkid/vdk-ice.gif"
+    },
+    {
+        "title": "Neon Green",
+        "author": "Snow",
+        "category": "Virtual Dustkid",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustkid/vdk-neonGreen",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustkid/vdk-neonGreen.gif"
+    },
+    {
+        "title": "Outlined",
+        "author": "Skyhawk",
+        "category": "Virtual Dustkid",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustkid/vdk-outlined",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustkid/vdk-outlined.gif"
+    },
+    {
+        "title": "Peach",
+        "author": "Rexy",
+        "category": "Virtual Dustkid",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustkid/vdk-peach",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustkid/vdk-peach.gif"
+    },
+    {
+        "title": "Black",
+        "author": "Snow",
+        "category": "Virtual Dustman",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustman/vdm-black",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustman/vdm-black.gif"
+    },
+    {
+        "title": "Dark Blue",
+        "author": "Rexy",
+        "category": "Virtual Dustman",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustman/vdm-darkBlue",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustman/vdm-darkBlue.gif"
+    },
+    {
+        "title": "Dark",
+        "author": "mister_simon",
+        "category": "Virtual Dustman",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustman/vdm-darkMan",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustman/vdm-darkMan.gif"
+    },
+    {
+        "title": "Ice",
+        "author": "Snow",
+        "category": "Virtual Dustman",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustman/vdm-ice",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustman/vdm-ice.gif"
+    },
+    {
+        "title": "Neon Red",
+        "author": "Snow",
+        "category": "Virtual Dustman",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustman/vdm-neonRed",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustman/vdm-neonRed.gif"
+    },
+    {
+        "title": "Outlined",
+        "author": "Skyhawk",
+        "category": "Virtual Dustman",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustman/vdm-outlined",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustman/vdm-outlined.gif"
+    },
+    {
+        "title": "Purple",
+        "author": "Snow",
+        "category": "Virtual Dustman",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustman/vdm-purple",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustman/vdm-purple.gif"
+    },
+    {
+        "title": "Sanic",
+        "author": "Snow",
+        "category": "Virtual Dustman",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustman/vdm-sanic",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustman/vdm-sanic.gif"
+    },
+    {
+        "title": "Black",
+        "author": "Snow",
+        "category": "Virtual Dustworth",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustworth/vdw-black",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustworth/vdw-black.gif"
+    },
+    {
+        "title": "Dark Green",
+        "author": "Rexy",
+        "category": "Virtual Dustworth",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustworth/vdw-darkGreen",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustworth/vdw-darkGreen.gif"
+    },
+    {
+        "title": "Dark",
+        "author": "mister_simon",
+        "category": "Virtual Dustworth",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustworth/vdw-darkWorth",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustworth/vdw-darkWorth.gif"
+    },
+    {
+        "title": "Ice",
+        "author": "Snow",
+        "category": "Virtual Dustworth",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustworth/vdw-ice",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustworth/vdw-ice.gif"
+    },
+    {
+        "title": "Neon Purple",
+        "author": "Snow",
+        "category": "Virtual Dustworth",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustworth/vdw-neonPurple",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustworth/vdw-neonPurple.gif"
+    },
+    {
+        "title": "Outlined",
+        "author": "Skyhawk",
+        "category": "Virtual Dustworth",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustworth/vdw-outlined",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustworth/vdw-outlined.gif"
+    },
+    {
+        "title": "Outlined 2",
+        "author": "Snow",
+        "category": "Virtual Dustworth",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustworth/vdw-outlined2",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustworth/vdw-outlined2.gif"
+    },
+    {
+        "title": "Striped",
+        "author": "C",
+        "category": "Virtual Dustworth",
+        "path": "./downloads/Sprites/Players/Characters-Virtual/VDustworth/vdw-striped",
+        "imagePath": "./downloads/Sprites/IMAGES/Players/Characters-Virtual/VDustworth/vdw-striped.gif"
+    },
+    {
+        "title": "Dustgirl Idle/Victory Fixed",
+        "author": "Tashizuna",
+        "category": "Fixes",
+        "path": "./downloads/Sprites/Sprite-Fixes/dg-fixed",
+        "imagePath": "./downloads/Sprites/IMAGES/Sprite-Fixes/dg-fixed.gif"
+    },
+    {
+        "title": "Dustman Portrait Fixed",
+        "author": "Tashizuna",
+        "category": "Fixes",
+        "path": "./downloads/Sprites/Sprite-Fixes/dm-editorFixed",
+        "imagePath": "./downloads/Sprites/IMAGES/Sprite-Fixes/dm-editorFixed.png"
+    },
+    {
+        "title": "Dustworth Strap Fixed",
+        "author": "Tashizuna",
+        "category": "Fixes",
+        "path": "./downloads/Sprites/Sprite-Fixes/dw-fixed",
+        "imagePath": "./downloads/Sprites/IMAGES/Sprite-Fixes/dw-fixed.gif"
+    },
+    {
+        "title": "City Fan Fixed",
+        "author": "Tashizuna",
+        "category": "Fixes",
+        "path": "./downloads/Sprites/Sprite-Fixes/props3-fixed",
+        "imagePath": "./downloads/Sprites/IMAGES/Sprite-Fixes/props3-fixed.gif"
+    },
+    {
+        "title": "Outlined Tiles",
+        "author": "Snow",
+        "category": "Tilesets",
+        "path": "./downloads/Sprites/Tilesets/allOutlined.zip",
+        "imagePath": "./downloads/Sprites/IMAGES/Tilesets/allOutlined.gif"
+    },
+    {
+        "title": "Alternate City Colors",
+        "author": "Snow",
+        "category": "Tilesets",
+        "path": "./downloads/Sprites/Tilesets/altCity.zip",
+        "imagePath": "./downloads/Sprites/IMAGES/Tilesets/altCity.gif"
+    },
+    {
+        "title": "Blue Labatory",
+        "author": "Snow",
+        "category": "Tilesets",
+        "path": "./downloads/Sprites/Tilesets/blueLab.zip",
+        "imagePath": "./downloads/Sprites/IMAGES/Tilesets/blueLab.gif"
+    },
+    {
+        "title": "Frosty Forest",
+        "author": "Snow",
+        "category": "Tilesets",
+        "path": "./downloads/Sprites/Tilesets/frostForest.zip",
+        "imagePath": "./downloads/Sprites/IMAGES/Tilesets/frostForest.gif"
+    },
+    {
+        "title": "Treasure Mansion",
+        "author": "Snow",
+        "category": "Tilesets",
+        "path": "./downloads/Sprites/Tilesets/treasureMansion.zip",
+        "imagePath": "./downloads/Sprites/IMAGES/Tilesets/treasureMansion.gif"
+    },
+    {
+        "title": "Striped Virtual",
+        "author": "Snow",
+        "category": "Tilesets",
+        "path": "./downloads/Sprites/Tilesets/virtualStripes.zip",
+        "imagePath": "./downloads/Sprites/IMAGES/Tilesets/virtualStripes.gif"
+    },
+    {
+        "title": "VVVVVVirtual",
+        "author": "Snow",
+        "category": "Tilesets",
+        "path": "./downloads/Sprites/Tilesets/VVVVVVirtual.zip",
+        "imagePath": "./downloads/Sprites/IMAGES/Tilesets/VVVVVVirtual.gif"
+    },
+    {
+        "title": "Default Dustgirl",
+        "author": "Hitbox (Woodley)",
+        "category": "Default",
+        "path": "./downloads/Sprites/BASE-SPRITES/Compiled/dustgirl",
+        "imagePath": ""
+    },
+    {
+        "title": "Default Dustkid",
+        "author": "Hitbox (Woodley)",
+        "category": "Default",
+        "path": "./downloads/Sprites/BASE-SPRITES/Compiled/dustkid",
+        "imagePath": ""
+    },
+    {
+        "title": "Default Dustman",
+        "author": "Hitbox (Woodley)",
+        "category": "Default",
+        "path": "./downloads/Sprites/BASE-SPRITES/Compiled/dustman",
+        "imagePath": ""
+    },
+    {
+        "title": "Default Dustworth",
+        "author": "Hitbox (Woodley)",
+        "category": "Default",
+        "path": "./downloads/Sprites/BASE-SPRITES/Compiled/dustworth",
+        "imagePath": ""
+    },
+    {
+        "title": "Default Dustwraith",
+        "author": "Hitbox (Woodley)",
+        "category": "Default",
+        "path": "./downloads/Sprites/BASE-SPRITES/Compiled/dustwraith",
+        "imagePath": ""
+    },
+    {
+        "title": "Default Leafsprite",
+        "author": "Hitbox (Woodley)",
+        "category": "Default",
+        "path": "./downloads/Sprites/BASE-SPRITES/Compiled/leafsprite",
+        "imagePath": ""
+    },
+    {
+        "title": "Default Slimeboss",
+        "author": "Hitbox (Woodley)",
+        "category": "Default",
+        "path": "./downloads/Sprites/BASE-SPRITES/Compiled/slimeboss",
+        "imagePath": ""
+    },
+    {
+        "title": "Default Trashking",
+        "author": "Hitbox (Woodley)",
+        "category": "Default",
+        "path": "./downloads/Sprites/BASE-SPRITES/Compiled/trashking",
+        "imagePath": ""
+    },
+    {
+        "title": "Default Virtual Dustgirl",
+        "author": "Hitbox (Woodley)",
+        "category": "Default",
+        "path": "./downloads/Sprites/BASE-SPRITES/Compiled/vdustgirl",
+        "imagePath": ""
+    },
+    {
+        "title": "Default Virtual Dustkid",
+        "author": "Hitbox (Woodley)",
+        "category": "Default",
+        "path": "./downloads/Sprites/BASE-SPRITES/Compiled/vdustkid",
+        "imagePath": ""
+    },
+    {
+        "title": "Default Virtual Dustman",
+        "author": "Hitbox (Woodley)",
+        "category": "Default",
+        "path": "./downloads/Sprites/BASE-SPRITES/Compiled/vdustman",
+        "imagePath": ""
+    },
+    {
+        "title": "Default Virtual Dustworth",
+        "author": "Hitbox (Woodley)",
+        "category": "Default",
+        "path": "./downloads/Sprites/BASE-SPRITES/Compiled/vdustworth",
+        "imagePath": ""
+    },
+    {
+        "title": "Virtual Dustwraith",
+        "author": "msg555",
+        "category": "Default",
+        "path": "./downloads/Sprites/BASE-SPRITES/Compiled/vdustwraith",
+        "imagePath": ""
+    },
+    {
+        "title": "Virtual Leafsprite",
+        "author": "msg555",
+        "category": "Default",
+        "path": "./downloads/Sprites/BASE-SPRITES/Compiled/vleafsprite",
+        "imagePath": ""
+    },
+    {
+        "title": "Virtual Slimeboss",
+        "author": "msg555",
+        "category": "Default",
+        "path": "./downloads/Sprites/BASE-SPRITES/Compiled/vslimeboss",
+        "imagePath": ""
+    },
+    {
+        "title": "Virtual Trashking",
+        "author": "msg555",
+        "category": "Default",
+        "path": "./downloads/Sprites/BASE-SPRITES/Compiled/vtrashking",
+        "imagePath": ""
+    }
+]

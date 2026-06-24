@@ -1,0 +1,2344 @@
+[
+    {
+        "title": "Lib Folder",
+        "description": "This is a 'master' lib folder, including files from many prominent members of the community. All scripts hosted here will be setup to use this lib. The base lib folder comes from: <a href=\"https://github.com/cmann1/DustScripts\" target=\"_blank\">https://github.com/cmann1/DustScripts</a>",
+        "category": "Embeds",
+        "tags": [
+            "embeds"
+        ],
+        "path": "./downloads/Scripts/Embeds/_lib.zip"
+    },
+    {
+        "title": "Module Folder",
+        "description": "Some scripts will use this folder. Folder comes from: <a href=\"https://github.com/cmann1/DustScripts\" target=\"_blank\">https://github.com/cmann1/DustScripts</a>",
+        "category": "Embeds",
+        "tags": [
+            "Embeds"
+        ],
+        "path": "./downloads/Scripts/Embeds/_module.zip"
+    },
+    {
+        "title": "Script Template - Editor",
+        "description": "A template file to build your own scripts",
+        "category": "Templates",
+        "tags": [
+            "template"
+        ],
+        "path": "./downloads/Scripts/Templates/editor_template.cpp"
+    },
+    {
+        "title": "Script Template - Main",
+        "description": "A template file to build your own scripts",
+        "category": "Templates",
+        "tags": [
+            "template"
+        ],
+        "path": "./downloads/Scripts/Templates/main_template.cpp"
+    },
+    {
+        "title": "Script Template - Main Alternate",
+        "description": "A template file to build your own scripts",
+        "category": "Templates",
+        "tags": [
+            "template"
+        ],
+        "path": "./downloads/Scripts/Templates/main_template_alt.cpp"
+    },
+    {
+        "title": "Script Template - Player",
+        "description": "A template file to build your own scripts",
+        "category": "Templates",
+        "tags": [
+            "template"
+        ],
+        "path": "./downloads/Scripts/Templates/player_template.cpp"
+    },
+    {
+        "title": "Script Template - Pool",
+        "description": "A template file to build your own scripts",
+        "category": "Templates",
+        "tags": [
+            "template"
+        ],
+        "path": "./downloads/Scripts/Templates/pool_template.cpp"
+    },
+    {
+        "title": "Script Template - Queue",
+        "description": "A template file to build your own scripts",
+        "category": "Templates",
+        "tags": [
+            "template"
+        ],
+        "path": "./downloads/Scripts/Templates/queue_template.cpp"
+    },
+    {
+        "title": "Script Template - Subframe",
+        "description": "A template file to build your own scripts",
+        "category": "Templates",
+        "tags": [
+            "template"
+        ],
+        "path": "./downloads/Scripts/Templates/subframe_template.cpp"
+    },
+    {
+        "title": "Script Template - Trigger",
+        "description": "A template file to build your own scripts",
+        "category": "Templates",
+        "tags": [
+            "template"
+        ],
+        "path": "./downloads/Scripts/Templates/trigger_template.cpp"
+    },
+    {
+        "title": "Action Character Swap (No RNG)",
+        "description": " Swap character based on actions such as jumping and attacking.",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "player",
+            "attack"
+        ],
+        "path": "./downloads/Scripts/Gameplay/action_character_swap_noRNG.as"
+    },
+    {
+        "title": "Action Character Swap (RNG)",
+        "description": "Swap character based on actions such as jumping and attacking randomly.",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "rng",
+            "attack"
+        ],
+        "path": "./downloads/Scripts/Gameplay/action_character_swap_RNG.as"
+    },
+    {
+        "title": "Air Charge Refresh Trigger",
+        "description": "Trigger refreshes air charge",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "trigger",
+            "aircharge"
+        ],
+        "path": "./downloads/Scripts/Gameplay/aircharge_refresh_trigger.cpp"
+    },
+    {
+        "title": "Apple Goal Counter",
+        "description": "Set the number of apples to be hit to clear level",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "apple",
+            "end-level"
+        ],
+        "path": "./downloads/Scripts/Gameplay/apple_goal_counter.cpp"
+    },
+    {
+        "title": "Apple Respawn",
+        "description": "Respawn one apple one time",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "apple",
+            "respawn",
+            "trigger"
+        ],
+        "path": "./downloads/Scripts/Gameplay/apple_respawn.as"
+    },
+    {
+        "title": "Apple Spawner Trigger",
+        "description": "Trigger zone spawns apple as well as destroys apple. Can choose launch speed. Spawning an apple creates a flag, and destorying it deletes flag for completion reasons.",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "apple",
+            "respawn",
+            "trigger",
+            "velocity"
+        ],
+        "path": "./downloads/Scripts/Gameplay/apple_spawner_triggers.cpp"
+    },
+    {
+        "title": "Apple Zone Destroys Tiles",
+        "description": "Declare an apple zone, as well a rectangular zone to be deleted when a tile is brought into it",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "apple",
+            "trigger",
+            "clear-tiles"
+        ],
+        "path": "./downloads/Scripts/Gameplay/apple_zone_destroy_tiles.cpp"
+    },
+    {
+        "title": "Arrow Simon Says",
+        "description": "Using a trigger, define Arrow directions and attack types to give back air charges. See: <a href=\"https://atlas.dustforce.com/10132/simon-says\" target=\"_blank\">https://atlas.dustforce.com/10132/simon-says</a>",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "aircharge",
+            "new-gameplay",
+            "attack"
+        ],
+        "path": "./downloads/Scripts/Gameplay/arrow_simon_says.cpp"
+    },
+    {
+        "title": "Avalanche",
+        "description": "Set props to be your avalanche as well as optional choices to embed sound files. See: <a href=\"https://atlas.dustforce.com/12101/the-alps\" target=\"_blank\">https://atlas.dustforce.com/12101/the-alps</a>",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "prop",
+            "sound"
+        ],
+        "path": "./downloads/Scripts/Gameplay/avalanche.as"
+    },
+    {
+        "title": "Baby Park",
+        "description": "Place down lap triggers causing lap counter to increment 1. NOTE: Lap counter is placed on HUD and does not line up with mouse movement in game world",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "race",
+            "trigger"
+        ],
+        "path": "./downloads/Scripts/Gameplay/baby_park.as"
+    },
+    {
+        "title": "Background Gameplay",
+        "description": "Character appears in parallax background layers. Layer 15 is redrawn as the collision layers. Can use trigger to swap back to layer 19",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "visual",
+            "parallax",
+            "trigger"
+        ],
+        "path": "./downloads/Scripts/Gameplay/background_gameplay.as"
+    },
+    {
+        "title": "Balloon On Hit",
+        "description": "Grow bigger on hit of an entity. Can embed sound file.",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "size-change",
+            "sound"
+        ],
+        "path": "./downloads/Scripts/Gameplay/balloon_on_hit.as"
+    },
+    {
+        "title": "Become Entity",
+        "description": "Become any enemy and gain their power!",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "entity",
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Gameplay/become_entity.cpp"
+    },
+    {
+        "title": "Blindfold",
+        "description": "Can't see anything other than HUD'",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "blind",
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Gameplay/blindfold.as"
+    },
+    {
+        "title": "Bounce Zone",
+        "description": "Create a bounce zone with a trigger",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "trigger",
+            "bounce"
+        ],
+        "path": "./downloads/Scripts/Gameplay/bounce_zone.as"
+    },
+    {
+        "title": "Breakable Tiles",
+        "description": "Choose individual tiles to be broken upon hit",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "clear-tiles",
+            "trigger",
+            "tiles"
+        ],
+        "path": "./downloads/Scripts/Gameplay/breakable_tiles.as"
+    },
+    {
+        "title": "Breakable Wall",
+        "description": "Choose a zone to be broken upon hit. Can change the health of tiles",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "clear-tiles",
+            "trigger",
+            "tiles"
+        ],
+        "path": "./downloads/Scripts/Gameplay/breakable_wall.cpp"
+    },
+    {
+        "title": "Change Attack Damage",
+        "description": "Changes attack damage of light and heavy attacks",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "attack",
+            "health",
+            "damage"
+        ],
+        "path": "./downloads/Scripts/Gameplay/change_attack_damage.as"
+    },
+    {
+        "title": "Character Swap",
+        "description": "Swap characters with taunt",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "taunt",
+            "characters"
+        ],
+        "path": "./downloads/Scripts/Gameplay/character_swap.cpp"
+    },
+    {
+        "title": "Character Unlock Trigger",
+        "description": "Unlock characters by hitting a trigger zone. Swap character with taunt",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "trigger",
+            "characters",
+            "taunt"
+        ],
+        "path": "./downloads/Scripts/Gameplay/character_unlock_trigger.cpp"
+    },
+    {
+        "title": "Clear Room Teleport",
+        "description": "Clear a defined zone of dust and entities to teleport",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "dust",
+            "entity",
+            "trigger"
+        ],
+        "path": "./downloads/Scripts/Gameplay/clear_room_teleport.cpp"
+    },
+    {
+        "title": "Clone Spawner",
+        "description": "Spawn a clone of the player",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "clone",
+            "player"
+        ],
+        "path": "./downloads/Scripts/Gameplay/clone_spawner.cpp"
+    },
+    {
+        "title": "Clunk",
+        "description": "Enables clunk-like physics without needing to move the tiles",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "clunk",
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Gameplay/clunk.as"
+    },
+    {
+        "title": "Combo Manager",
+        "description": "Gives control of combo loss conditions",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "combo",
+            "player"
+        ],
+        "path": "./downloads/Scripts/Gameplay/combo_manager.cpp"
+    },
+    {
+        "title": "Cross Beams",
+        "description": "Beam trigger is tied to player and will shoot at a modified delay. See: <a href=\"https://atlas.dustforce.com/12941/crucifixion\" target=\"_blank\">https://atlas.dustforce.com/12941/crucifixion</a>",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "new-gameplay",
+            "laser"
+        ],
+        "path": "./downloads/Scripts/Gameplay/cross_beams.as"
+    },
+    {
+        "title": "Ground Combo",
+        "description": "While touching the ground gain combo meter",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "combo"
+        ],
+        "path": "./downloads/Scripts/Gameplay/combo_on_floor.as"
+    },
+    {
+        "title": "Delayed Teleport",
+        "description": "Teleport trigger that activates after X number of frames",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "teleport",
+            "trigger"
+        ],
+        "path": "./downloads/Scripts/Gameplay/delayed_teleport.cpp"
+    },
+    {
+        "title": "Disable Anything Manager",
+        "description": "Create trigger zones to disable attacks, jumps, and individual movements. Can have each trigger activated once or multiple times",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "trigger",
+            "attack",
+            "all"
+        ],
+        "path": "./downloads/Scripts/Gameplay/disable_all_trigger.cpp"
+    },
+    {
+        "title": "Dust Respawner Zone",
+        "description": "Dust will respawn in declared zone",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "dust",
+            "trigger"
+        ],
+        "path": "./downloads/Scripts/Gameplay/dust_respawner_zone.as"
+    },
+    {
+        "title": "Edge Toggle Distance",
+        "description": "Can disable edge collision or enable edge collision depending if player is in trigger zone",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "trigger",
+            "tiles"
+        ],
+        "path": "./downloads/Scripts/Gameplay/edge_toggle_distance.cpp"
+    },
+    {
+        "title": "End Zone Mystery",
+        "description": "Hard set coordinates in script. If player enters coordiantes end the level",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "hard-coded",
+            "mystery"
+        ],
+        "path": "./downloads/Scripts/Gameplay/end_zone_mystery.cpp"
+    },
+    {
+        "title": "Enemies Don't Hurt",
+        "description": "Enemies can attack but do no damage",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "entity"
+        ],
+        "path": "./downloads/Scripts/Gameplay/enemies_dont_hurt.cpp"
+    },
+    {
+        "title": "Enemy Health Controller",
+        "description": "Control the health of all enemies in a level",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "entity",
+            "health",
+            "damage"
+        ],
+        "path": "./downloads/Scripts/Gameplay/enemy_health_controller.cpp"
+    },
+    {
+        "title": "Enemy Manager",
+        "description": "Control enemy health, move speed, and attack speed",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "entity",
+            "health",
+            "damage",
+            "AI"
+        ],
+        "path": "./downloads/Scripts/Gameplay/enemy_manager.cpp"
+    },
+    {
+        "title": "Entity Follower",
+        "description": "Can link a child entity to follow a parent entity",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "entity",
+            "follow",
+            "entity",
+            "AI"
+        ],
+        "path": "./downloads/Scripts/Gameplay/entity_follower.cpp"
+    },
+    {
+        "title": "Entity Teleporter",
+        "description": "Trigger zone that can teleports an entity ",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "entity",
+            "teleporter",
+            "trigger"
+        ],
+        "path": "./downloads/Scripts/Gameplay/entity_teleporter.cpp"
+    },
+    {
+        "title": "Fast",
+        "description": "Dashing, jumping and downdashing retains and increases speed, most friction has been removed, and there is no terminal velocity",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "new-gameplay",
+            "speed-change"
+        ],
+        "path": "./downloads/Scripts/Gameplay/fast.as"
+    },
+    {
+        "title": "Final Tire Boss",
+        "description": "Turn a tire into a final boss! See: <a href=\"https://atlas.dustforce.com/14296/revenge-of-pinata\" target=\"_blank\">https://atlas.dustforce.com/14296/revenge-of-pinata</a>",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "new-gameplay",
+            "entity",
+            "boss"
+        ],
+        "path": "./downloads/Scripts/Gameplay/final_tire_boss.as"
+    },
+    {
+        "title": "Flywrench",
+        "description": "Create lasers that can only be passed while holding jump. White=Default, Red=Jump, Pink=Death. See: <a href=\"https://atlas.dustforce.com/9388/ceres\" target=\"_blank\">https://atlas.dustforce.com/9388/ceres</a>",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "laser",
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Gameplay/flywrench.as"
+    },
+    {
+        "title": "Forces Face Right",
+        "description": "Forces the player to face right at all times",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "force-action",
+            "direction"
+        ],
+        "path": "./downloads/Scripts/Gameplay/force_facing_right.as"
+    },
+    {
+        "title": "Force Player Actions",
+        "description": "Force player to perform certain actions every actionable frame",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "force-aciton"
+        ],
+        "path": "./downloads/Scripts/Gameplay/force_player_actions.as"
+    },
+    {
+        "title": "Gravity switcher",
+        "description": "Switches the player's gravity! Can also control fog color during switch",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "trigger",
+            "gravity",
+            "fog"
+        ],
+        "path": "./downloads/Scripts/Gameplay/gravity_switcher.cpp"
+    },
+    {
+        "title": "Hittable Zone",
+        "description": "Define an invisible zone that can be hit by the player.",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "trigger"
+        ],
+        "path": "./downloads/Scripts/Gameplay/hittable_zone.cpp"
+    },
+    {
+        "title": "Hit an Apple",
+        "description": "Hit a single apple to clear the level",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "apple",
+            "attack",
+            "end-level"
+        ],
+        "path": "./downloads/Scripts/Gameplay/hit_an_apple.as"
+    },
+    {
+        "title": "Hit An Apple With An Apple",
+        "description": "Spawns an apple at the player. The player must hit an apple with another apple to end the level",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "apple",
+            "attack",
+            "end-level"
+        ],
+        "path": "./downloads/Scripts/Gameplay/hit_an_apple_with_an_apple.as"
+    },
+    {
+        "title": "Ice Physics",
+        "description": "Create your own ice rink!",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "ice",
+            "new-gameplay",
+            "physics"
+        ],
+        "path": "./downloads/Scripts/Gameplay/ice_physics.as"
+    },
+    {
+        "title": "Ice Physics 2",
+        "description": "Create your own ice rink...2!",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "ice",
+            "new-gameplay",
+            "physics"
+        ],
+        "path": "./downloads/Scripts/Gameplay/ice_physics2.as"
+    },
+    {
+        "title": "Ice Zones",
+        "description": "Define a zone which affects player physics, creating simillar physics as to ice",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "trigger",
+            "ice",
+            "new-gameplay",
+            "physics"
+        ],
+        "path": "./downloads/Scripts/Gameplay/ice_zones.cpp"
+    },
+    {
+        "title": "Infinite Air Charges",
+        "description": "Gives the player infinite air charges",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "aircharge"
+        ],
+        "path": "./downloads/Scripts/Gameplay/infinite_air_charges.as"
+    },
+    {
+        "title": "Infinite Super",
+        "description": "Gives the player infinite super",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "super"
+        ],
+        "path": "./downloads/Scripts/Gameplay/infinite_super.as"
+    },
+    {
+        "title": "Instant Actions",
+        "description": "Perform all actions instantly!",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "new-gameplay",
+            "all"
+        ],
+        "path": "./downloads/Scripts/Gameplay/instant_actions.as"
+    },
+    {
+        "title": "Invincible",
+        "description": "I'm... INVINCIBLE!",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "health",
+            "invincible"
+        ],
+        "path": "./downloads/Scripts/Gameplay/invincible.cpp"
+    },
+    {
+        "title": "Jump Character Swap",
+        "description": "Swap characters on every jump input",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "jump",
+            "characters"
+        ],
+        "path": "./downloads/Scripts/Gameplay/jump_char_swap.as"
+    },
+    {
+        "title": "Katamari Apple",
+        "description": "Collect all enemies with your apple to beat the level",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "apple",
+            "new-gameplay",
+            "end-level"
+        ],
+        "path": "./downloads/Scripts/Gameplay/katamari_apple.as"
+    },
+    {
+        "title": "Kill X Apples",
+        "description": "Kill X apples to beat the level",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "apple",
+            "end-level"
+        ],
+        "path": "./downloads/Scripts/Gameplay/kill_x_apples.as"
+    },
+    {
+        "title": "Kingsbird Flight",
+        "description": "Fly like you do in Kingsbird! Hold light attack and down while falling to generate momentum",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "physics",
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Gameplay/kingsbird_flight.as"
+    },
+    {
+        "title": "Laser",
+        "description": "Use a trigger to create a laser source point. Kills player upon contact. Can use white lab tiles to bounce the laser, and lab glass tiles to allow it to pass through",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "laser",
+            "trigger",
+            "visual"
+        ],
+        "path": "./downloads/Scripts/Gameplay/laser.as"
+    },
+    {
+        "title": "Lava",
+        "description": "Lava comes up from the bottom of the screen. Run! See: <a href=\"https://atlas.dustforce.com/12807/escape\" target=\"_blank\">https://atlas.dustforce.com/12807/escape</a>",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "visual",
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Gameplay/lava.cpp"
+    },
+    {
+        "title": "Lights Off",
+        "description": "Turns off everything except the player",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "visual",
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Gameplay/lights_off.as"
+    },
+    {
+        "title": "Man-Girl Lock",
+        "description": "Force Man/Girl on your level. Man = Man/Worth Girl=Girl/Kid",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "man-girl"
+        ],
+        "path": "./downloads/Scripts/Gameplay/man_girl_lock.cpp"
+    },
+    {
+        "title": "Medium Speed",
+        "description": "Choose a capped speed the player can reach. Adds no friction",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "speed-change",
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Gameplay/medium_speed.as"
+    },
+    {
+        "title": "Moon Trigger",
+        "description": "Removes all vertical velocity. Has a music embed that can play when trigger is hit. NOTE: Leave value set to 0 otherwise it won't work",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "trigger",
+            "sound",
+            "physics"
+        ],
+        "path": "./downloads/Scripts/Gameplay/moon_trigger.as"
+    },
+    {
+        "title": "Multiplayer - Share Combo",
+        "description": "Share combo between all players in multiplayer",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "multiplayer",
+            "combo"
+        ],
+        "path": "./downloads/Scripts/Gameplay/multiplayer_sharecombo.as"
+    },
+    {
+        "title": "Multiplayer - Team Attack",
+        "description": "Hit your team in multiplayer",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "multiplayer",
+            "attack"
+        ],
+        "path": "./downloads/Scripts/Gameplay/multiplayer_teamattack.as"
+    },
+    {
+        "title": "No Aircharge",
+        "description": "Removes all aircharges from the player",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "aircharge"
+        ],
+        "path": "./downloads/Scripts/Gameplay/no_aircharge_2.as"
+    },
+    {
+        "title": "No Bob",
+        "description": "Removes all bob from floating enemies",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "entity"
+        ],
+        "path": "./downloads/Scripts/Gameplay/no_bob.cpp"
+    },
+    {
+        "title": "No Clip",
+        "description": "Player can fall through all collision tiles",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Gameplay/no_clip.cpp"
+    },
+    {
+        "title": "No Direction",
+        "description": "Removes any use of the directional inputs",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "direction",
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Gameplay/no_dir.as"
+    },
+    {
+        "title": "No Hitrise",
+        "description": "Removes hitrise when hitting enemies",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "attack",
+            "physics"
+        ],
+        "path": "./downloads/Scripts/Gameplay/no_hitrise.cpp"
+    },
+    {
+        "title": "No Dust Spread",
+        "description": "Killed enemies no longer spread dust",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "dust",
+            "attack",
+            "entity"
+        ],
+        "path": "./downloads/Scripts/Gameplay/no_spread.as"
+    },
+    {
+        "title": "Only Move Right",
+        "description": "Can only move right, no backtracking!",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "direction",
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Gameplay/only_right.as"
+    },
+    {
+        "title": "Pacifist",
+        "description": "Clear all dust without attacking any entities to end the level",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "dust",
+            "entity",
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Gameplay/pacifist.as"
+    },
+    {
+        "title": "Player Shadow Chase",
+        "description": "Shadows that copy the exact movement of the player chase you. See: <a href=\"https://atlas.dustforce.com/14379/old-site\" target=\"_blank\">https://atlas.dustforce.com/14379/old-site</a>",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "visual",
+            "new-gameplay",
+            "player"
+        ],
+        "path": "./downloads/Scripts/Gameplay/player_shadow_chase.as"
+    },
+    {
+        "title": "Player Wolf",
+        "description": "Become the Wolf. AWOOOOOO",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "entity",
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Gameplay/player_wolf.cpp"
+    },
+    {
+        "title": "Pogo",
+        "description": "Bounce forever, can gain momentum through downdashing and speed transfering",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "physics",
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Gameplay/pogo.as"
+    },
+    {
+        "title": "Porcupine Fire Speed",
+        "description": "Change the fire speed of porcupines",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "entity",
+            "AI"
+        ],
+        "path": "./downloads/Scripts/Gameplay/porc_firespeed.as"
+    },
+    {
+        "title": "Porcupines Off",
+        "description": "Turn off porcupines from attacking",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "entity",
+            "AI"
+        ],
+        "path": "./downloads/Scripts/Gameplay/porc_off.as"
+    },
+    {
+        "title": "Prism Replacer - Slime Barrel",
+        "description": "Replace all prisms with slime barrels",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "visual",
+            "entity"
+        ],
+        "path": "./downloads/Scripts/Gameplay/prism_slimebarrel_replace.cpp"
+    },
+    {
+        "title": "Redlight Greenlight",
+        "description": "Don't get caught moving while its red! See: <a href=\"https://atlas.dustforce.com/14239/downtown\" target=\"_blank\">https://atlas.dustforce.com/14239/downtown</a>",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "visual",
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Gameplay/redlight_greenlight.cpp"
+    },
+    {
+        "title": "Reducer",
+        "description": "Turn an enemy big with extra health! See: <a href=\"https://atlas.dustforce.com/10189/reducer\" target=\"_blank\">https://atlas.dustforce.com/10189/reducer</a>",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "entity",
+            "health",
+            "attack",
+            "size-change"
+        ],
+        "path": "./downloads/Scripts/Gameplay/reducer_array.cpp"
+    },
+    {
+        "title": "Remote Bomb",
+        "description": "Place a bomb with heavy attack and activate it to attack the area! See: <a href=\"https://atlas.dustforce.com/10880/we-got-a-timebomb\" target=\"_blank\">https://atlas.dustforce.com/10880/we-got-a-timebomb</a>",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "attack",
+            "visual",
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Gameplay/remote_bomb.as"
+    },
+    {
+        "title": "Remove Enemy AI",
+        "description": "Turn off all enemy AI",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "entity",
+            "AI"
+        ],
+        "path": "./downloads/Scripts/Gameplay/remove_enemy_ai.as"
+    },
+    {
+        "title": "Reverse Coyote Jump",
+        "description": "If you jump too close to a ledge you won't get an aircharge",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "meme",
+            "jump"
+        ],
+        "path": "./downloads/Scripts/Gameplay/reverse_coyote_jump.cpp"
+    },
+    {
+        "title": "Reverse Slopeboost",
+        "description": "You think you are going one way, but actually...",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "boost",
+            "meme"
+        ],
+        "path": "./downloads/Scripts/Gameplay/reverse_slopeboost.cpp"
+    },
+    {
+        "title": "Shy Blocks",
+        "description": "Declare 'shy zones'. Tiles in these zones will disappear when the player looks at them",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "new-gameplay",
+            "tiles",
+            "trigger"
+        ],
+        "path": "./downloads/Scripts/Gameplay/shy_blocks.as"
+    },
+    {
+        "title": "Single Ground Dash",
+        "description": "Can only dash one time on the ground. Can be refreshed by jumping",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Gameplay/single_ground_dash.as"
+    },
+    {
+        "title": "Slow",
+        "description": "Set maximum player speed",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "speed"
+        ],
+        "path": "./downloads/Scripts/Gameplay/slow.as"
+    },
+    {
+        "title": "Someone Wins",
+        "description": "ID is hard coded into the file. Allows a trigger zone of tiles to disappear if matching ID plays the level.",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "meme",
+            "hard-coded",
+            "clear-tiles"
+        ],
+        "path": "./downloads/Scripts/Gameplay/someone_wins.as"
+    },
+    {
+        "title": "Speed Check",
+        "description": "Checks if the player has the matching units to pass through trigger",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "speed",
+            "triggers",
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Gameplay/speedcheck.cpp"
+    },
+    {
+        "title": "Speed Boost Zone",
+        "description": "Gives the player a boost to their X Y within a given trigger. Boost is dash activated and the player must be facing right.",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "trigger",
+            "direction",
+            "boost"
+        ],
+        "path": "./downloads/Scripts/Gameplay/speed_boost_zone.as"
+    },
+    {
+        "title": "Start Speed",
+        "description": "Gives an initial boost of XY speed off of 3,2,1 countdown",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "boost"
+        ],
+        "path": "./downloads/Scripts/Gameplay/start_speed.as"
+    },
+    {
+        "title": "Sticky Totems",
+        "description": "Other entities stick to moving totems",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "entity",
+            "sticky"
+        ],
+        "path": "./downloads/Scripts/Gameplay/sticky_totems.as"
+    },
+    {
+        "title": "Stoneboss Boss",
+        "description": "Stoneboss' final form",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "entity",
+            "boss"
+        ],
+        "path": "./downloads/Scripts/Gameplay/stoneboss_boss.cpp"
+    },
+    {
+        "title": "Sticky Ground",
+        "description": "Force the player to move by jumping or dashing off walls. The ground is sticky!",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "sticky",
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Gameplay/stuck_ground.as"
+    },
+    {
+        "title": "Super Killer",
+        "description": "Kills the player if they haver have super",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "super"
+        ],
+        "path": "./downloads/Scripts/Gameplay/super_killer.cpp"
+    },
+    {
+        "title": "Super Only",
+        "description": "All attacks become super",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "attack",
+            "super",
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Gameplay/super_only.as"
+    },
+    {
+        "title": "Taunt Checkpoint",
+        "description": "Create a player-made checkpoint with Taunt",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "tuant",
+            "checkpoint"
+        ],
+        "path": "./downloads/Scripts/Gameplay/taunt_checkpoint.cpp"
+    },
+    {
+        "title": "Taunt Invincibility",
+        "description": "Become invincible by using Taunt!",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "taunt",
+            "invincible"
+        ],
+        "path": "./downloads/Scripts/Gameplay/taunt_invincibility.cpp"
+    },
+    {
+        "title": "Taunt Noclip",
+        "description": "Activate Noclip with Taunt",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "taunt",
+            "tiles"
+        ],
+        "path": "./downloads/Scripts/Gameplay/taunt_noclip.cpp"
+    },
+    {
+        "title": "Taunt Respawn",
+        "description": "Teleport to the start of the level carrying any momentum",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "taunt"
+        ],
+        "path": "./downloads/Scripts/Gameplay/taunt_respawn.as"
+    },
+    {
+        "title": "Taunt Size Changer",
+        "description": "Use Taunt to grow bigger and use Taunt+Down to grow smaller",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "taunt",
+            "size-change"
+        ],
+        "path": "./downloads/Scripts/Gameplay/taunt_size_changer.as"
+    },
+    {
+        "title": "Totem Spam Ledgecancel",
+        "description": "Get totem spammed if you ledge cancel",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "entity",
+            "ledge-cancel"
+        ],
+        "path": "./downloads/Scripts/Gameplay/totem_spam_ledgecancel.cpp"
+    },
+    {
+        "title": "Treadmill",
+        "description": "Auto-pushes the player to the right as long as y=0",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "direction"
+        ],
+        "path": "./downloads/Scripts/Gameplay/treadmill.as"
+    },
+    {
+        "title": "Waves",
+        "description": "Shoot waves of power from your attacks!",
+        "category": "Gameplay Scripts",
+        "tags": [
+            "new-gameplay",
+            "attack"
+        ],
+        "path": "./downloads/Scripts/Gameplay/waves.as"
+    },
+    {
+        "title": "Apple Replace",
+        "description": "Replace the apple sprite with a custom image",
+        "category": "Visual Scripts",
+        "tags": [
+            "apple",
+            "custom-image",
+            "sprite"
+        ],
+        "path": "./downloads/Scripts/Visual/apple_replace.cpp"
+    },
+    {
+        "title": "Blink",
+        "description": "Cause the set layer to swap between two colors",
+        "category": "Visual Scripts",
+        "tags": [
+            "fog",
+            "shift"
+        ],
+        "path": "./downloads/Scripts/Visual/blink.as"
+    },
+    {
+        "title": "Blurry",
+        "description": "Force the entire screen to be blurry",
+        "category": "Visual Scripts",
+        "tags": [
+            "blurry"
+        ],
+        "path": "./downloads/Scripts/Visual/blurry.as"
+    },
+    {
+        "title": "Camera Wobble",
+        "description": "Force the camera to wobble back and forth",
+        "category": "Visual Scripts",
+        "tags": [
+            "camera",
+            "camera-move"
+        ],
+        "path": "./downloads/Scripts/Visual/camera_wobble_trigger.as"
+    },
+    {
+        "title": "Change Dustspread",
+        "description": "Change the dustspread in the level to any of the other filth types",
+        "category": "Visual Scripts",
+        "tags": [
+            "dust"
+        ],
+        "path": "./downloads/Scripts/Visual/change_dustspread.as"
+    },
+    {
+        "title": "City Clock",
+        "description": "Create a real-time clock out of city props",
+        "category": "Visual Scripts",
+        "tags": [
+            "prop",
+            "clock"
+        ],
+        "path": "./downloads/Scripts/Visual/city_clock.cpp"
+    },
+    {
+        "title": "Corpse Knockback",
+        "description": "Have the corpse of the enemy kill go flying!",
+        "category": "Visual Scripts",
+        "tags": [
+            "attack",
+            "entity"
+        ],
+        "path": "./downloads/Scripts/Visual/corpse_knockback.as"
+    },
+    {
+        "title": "Create Glass",
+        "description": "Define a region to be a act similar to a pane of glass. No reflection",
+        "category": "Visual Scripts",
+        "tags": [
+            "blurry"
+        ],
+        "path": "./downloads/Scripts/Visual/create_glass.cpp"
+    },
+    {
+        "title": "Custom Images",
+        "description": "Put custom images into your level",
+        "category": "Visual Scripts",
+        "tags": [
+            "custom-image",
+            "trigger"
+        ],
+        "path": "./downloads/Scripts/Visual/custom_images.cpp"
+    },
+    {
+        "title": "Custom Props",
+        "description": "Put custom props into your level",
+        "category": "Visual Scripts",
+        "tags": [
+            "custom-image",
+            "prop",
+            "trigger"
+        ],
+        "path": "./downloads/Scripts/Visual/custom_prop_trigger.as"
+    },
+    {
+        "title": "Dust Type",
+        "description": "Changes dustspread but also changes all the dust in a given radius to a certain filth type",
+        "category": "Visual Scripts",
+        "tags": [
+            "dust",
+            "attack"
+        ],
+        "path": "./downloads/Scripts/Visual/dust_type.cpp"
+    },
+    {
+        "title": "Enemy Cars",
+        "description": "Turns all enemies into cars. Works best with totems",
+        "category": "Visual Scripts",
+        "tags": [
+            "custom-image",
+            "sprite",
+            "entity",
+            "sound"
+        ],
+        "path": "./downloads/Scripts/Visual/enemy_cars.as"
+    },
+    {
+        "title": "Fog Shift",
+        "description": "Shift the hue colors of the selected layer",
+        "category": "Visual Scripts",
+        "tags": [
+            "fog",
+            "shift"
+        ],
+        "path": "./downloads/Scripts/Visual/fog_shift.as"
+    },
+    {
+        "title": "Follow Player Camera",
+        "description": "Have the player always in the center of the camera",
+        "category": "Visual Scripts",
+        "tags": [
+            "camera",
+            "camera-move",
+            "player"
+        ],
+        "path": "./downloads/Scripts/Visual/follow_player_camera.cpp"
+    },
+    {
+        "title": "Gears & Prism Gears",
+        "description": "Spawn moving gears, but also provide visual gears behind prisms!",
+        "category": "Visual Scripts",
+        "tags": [
+            "motion",
+            "prop",
+            "entity",
+            "art"
+        ],
+        "path": "./downloads/Scripts/Visual/gears_prismgears.as"
+    },
+    {
+        "title": "HUD Text",
+        "description": "Put text anywhere on the HUD",
+        "category": "Visual Scripts",
+        "tags": [
+            "hud",
+            "text"
+        ],
+        "path": "./downloads/Scripts/Visual/hud_text.cpp"
+    },
+    {
+        "title": "Layer Controller",
+        "description": "Shift the draw order of layers",
+        "category": "Visual Scripts",
+        "tags": [
+            "layers",
+            "fog",
+            "draw-order"
+        ],
+        "path": "./downloads/Scripts/Visual/layer_controller.cpp"
+    },
+    {
+        "title": "Layer Dustblocks",
+        "description": "Put dustblocks on different layers. Useful for fog issues",
+        "category": "Visual Scripts",
+        "tags": [
+            "layers",
+            "draw-order",
+            "dust"
+        ],
+        "path": "./downloads/Scripts/Visual/layer_dustblocks.cpp"
+    },
+    {
+        "title": "Layer Hider",
+        "description": "Hide one layer from being drawn",
+        "category": "Visual Scripts",
+        "tags": [
+            "layers",
+            "draw-order"
+        ],
+        "path": "./downloads/Scripts/Visual/layer_hider.as"
+    },
+    {
+        "title": "Letter Box",
+        "description": "Create a dramatic movie with this script! See: <a href=\"https://atlas.dustforce.com/14378/training-facility\" target=\"_blank\">https://atlas.dustforce.com/14378/training-facility</a>",
+        "category": "Visual Scripts",
+        "tags": [
+            "hud",
+            "art"
+        ],
+        "path": "./downloads/Scripts/Visual/letter_box.cpp"
+    },
+    {
+        "title": "Lookahead",
+        "description": "Allows the player to view the upcoming level. Use TAUNT and directional input to activate",
+        "category": "Visual Scripts",
+        "tags": [
+            "camera",
+            "taunt"
+        ],
+        "path": "./downloads/Scripts/Visual/lookahead.as"
+    },
+    {
+        "title": "Minimap",
+        "description": "Draws a real-time minimap. Set different colors for apples and entities",
+        "category": "Visual Scripts",
+        "tags": [
+            "hud",
+            "tiles",
+            "entity",
+            "apple"
+        ],
+        "path": "./downloads/Scripts/Visual/minimap.cpp"
+    },
+    {
+        "title": "No HUD",
+        "description": "Removes the HUD during gameplay",
+        "category": "Visual Scripts",
+        "tags": [
+            "hud"
+        ],
+        "path": "./downloads/Scripts/Visual/no_hud.cpp"
+    },
+    {
+        "title": "Panning Camera",
+        "description": "Pan the camera between two different spots. Can change the speed of the pan.",
+        "category": "Visual Scripts",
+        "tags": [
+            "camera",
+            "camera-move"
+        ],
+        "path": "./downloads/Scripts/Visual/panning_camera.cpp"
+    },
+    {
+        "title": "Parallax Layer Movement",
+        "description": "Parllax layers constantly shift",
+        "category": "Visual Scripts",
+        "tags": [
+            "parallax",
+            "layers",
+            "motion"
+        ],
+        "path": "./downloads/Scripts/Visual/parallax_layer_movement.cpp"
+    },
+    {
+        "title": "Penis",
+        "description": "NSFW - Spawns a Penis made from pops and emitters. ",
+        "category": "Visual Scripts",
+        "tags": [],
+        "path": "./downloads/Scripts/Visual/penis.cpp"
+    },
+    {
+        "title": "Perspective Change Trigger",
+        "description": "Create a trigger that rotates the perspective of the camera within 360 degrees.",
+        "category": "Visual Scripts",
+        "tags": [
+            "camera",
+            "camera-move",
+            "motion"
+        ],
+        "path": "./downloads/Scripts/Visual/perspective_change.as"
+    },
+    {
+        "title": "Player Backflip",
+        "description": "Backflip when going over ledges. RADICAL!",
+        "category": "Visual Scripts",
+        "tags": [
+            "raidcal",
+            "player"
+        ],
+        "path": "./downloads/Scripts/Visual/player_backflip.as"
+    },
+    {
+        "title": "Player Emitter",
+        "description": "Change the 'King Zone Red' emittter particles to change player particles. NOTE: Keep value set to 4 otherwise expect lag.",
+        "category": "Visual Scripts",
+        "tags": [
+            "emitter",
+            "player"
+        ],
+        "path": "./downloads/Scripts/Visual/player_emitter.cpp"
+    },
+    {
+        "title": "Positional Fog",
+        "description": "Have fog triggers activate based on player position rather than camera position",
+        "category": "Visual Scripts",
+        "tags": [
+            "fog",
+            "trigger",
+            "camera"
+        ],
+        "path": "./downloads/Scripts/Visual/positional_fog.cpp"
+    },
+    {
+        "title": "Prism Replace",
+        "description": "Replace prisms with any image. Needs Embeds.",
+        "category": "Visual Scripts",
+        "tags": [
+            "custom-image",
+            "sprite"
+        ],
+        "path": "./downloads/Scripts/Visual/prism_replace.cpp"
+    },
+    {
+        "title": "Prop Wind",
+        "description": "Blow props in the wind!",
+        "category": "Visual Scripts",
+        "tags": [
+            "prop",
+            "emitter",
+            "wind"
+        ],
+        "path": "./downloads/Scripts/Visual/props_wind.cpp"
+    },
+    {
+        "title": "Prop Scrolling",
+        "description": "Define a region that props will scroll and wrap around",
+        "category": "Visual Scripts",
+        "tags": [
+            "prop",
+            "motion"
+        ],
+        "path": "./downloads/Scripts/Visual/prop_scrolling.cpp"
+    },
+    {
+        "title": "Rainbow Stream",
+        "description": "Use a trigger to create a rainbow stream! See: <a href=\"https://atlas.dustforce.com/8584/rainbow-rush\" target=\"_blank\">https://atlas.dustforce.com/8584/rainbow-rush</a>",
+        "category": "Visual Scripts",
+        "tags": [
+            "trigger",
+            "art"
+        ],
+        "path": "./downloads/Scripts/Visual/rainbow_stream.cpp"
+    },
+    {
+        "title": "Remote Force Camera",
+        "description": "Force the player onto a specific camera line when they enter the trigger zone",
+        "category": "Visual Scripts",
+        "tags": [
+            "trigger",
+            "camera"
+        ],
+        "path": "./downloads/Scripts/Visual/remote_force_camera.as"
+    },
+    {
+        "title": "Remove Cleansed Animals",
+        "description": "Removes the animal entities after killing a dusted enemy",
+        "category": "Visual Scripts",
+        "tags": [
+            "entity",
+            "attack"
+        ],
+        "path": "./downloads/Scripts/Visual/remove_cleansed_animlas.as"
+    },
+    {
+        "title": "Shadows",
+        "description": "Has raycasting along tile edges replicating line of sight.",
+        "category": "Visual Scripts",
+        "tags": [
+            "fog",
+            "layers"
+        ],
+        "path": "./downloads/Scripts/Visual/shadows.cpp"
+    },
+    {
+        "title": "Shadows No Raycast",
+        "description": "No raycasting on tile edges. Can modify Alpha value. See: <a href=\"https://atlas.dustforce.com/12173/ruined-chambers\" target=\"_blank\">https://atlas.dustforce.com/12173/ruined-chambers</a>",
+        "category": "Visual Scripts",
+        "tags": [
+            "fog",
+            "layers"
+        ],
+        "path": "./downloads/Scripts/Visual/shadows_noraycast.cpp"
+    },
+    {
+        "title": "Shake Trigger",
+        "description": "Causes screen to shake while player is in trigger",
+        "category": "Visual Scripts",
+        "tags": [
+            "trigger",
+            "motion"
+        ],
+        "path": "./downloads/Scripts/Visual/shake.as"
+    },
+    {
+        "title": "Spin Custom Image",
+        "description": "Spin that custom image!",
+        "category": "Visual Scripts",
+        "tags": [
+            "custom-image",
+            "sprite",
+            "motion"
+        ],
+        "path": "./downloads/Scripts/Visual/spin_custom_image.as"
+    },
+    {
+        "title": "Spotlight",
+        "description": "A spotlight that can move back and forth",
+        "category": "Visual Scripts",
+        "tags": [
+            "prop",
+            "motion"
+        ],
+        "path": "./downloads/Scripts/Visual/spotlight.as"
+    },
+    {
+        "title": "Tentacales",
+        "description": "Create some spooky tentacles with triggers",
+        "category": "Visual Scripts",
+        "tags": [
+            "trigger",
+            "motion",
+            "art"
+        ],
+        "path": "./downloads/Scripts/Visual/tentacles.as"
+    },
+    {
+        "title": "Totem Replace",
+        "description": "Replace totem sprite with custom sprite",
+        "category": "Visual Scripts",
+        "tags": [
+            "custom-image",
+            "sprite"
+        ],
+        "path": "./downloads/Scripts/Visual/totem_replace.cpp"
+    },
+    {
+        "title": "Triangles",
+        "description": "Create decorative triangles on layer 13",
+        "category": "Visual Scripts",
+        "tags": [
+            "layers",
+            "art"
+        ],
+        "path": "./downloads/Scripts/Visual/triangles.as"
+    },
+    {
+        "title": "Wobble Camera",
+        "description": "Wobbles the camera back and forth while in trigger zone. Keeps orientation when leaving trigger",
+        "category": "Visual Scripts",
+        "tags": [
+            "camera",
+            "camera-move"
+        ],
+        "path": "./downloads/Scripts/Visual/wobble_camera_trigger.as"
+    },
+    {
+        "title": "Entity Outliner",
+        "description": "Outline all entites as well as modify the outline scale",
+        "category": "Visual Scripts",
+        "tags": [
+            "art",
+            "player",
+            "entity",
+            "layers"
+        ],
+        "path": "./downloads/Scripts/Visual/_entity_outliner.zip"
+    },
+    {
+        "title": "Hat - Bunny Ears",
+        "description": "Give Dustman some Bunny Ears!",
+        "category": "Visual Scripts",
+        "tags": [
+            "art",
+            "hat",
+            "player"
+        ],
+        "path": "./downloads/Scripts/Visual/_bunny_ears.zip"
+    },
+    {
+        "title": "Hat - Custom ",
+        "description": "Wear any type of hat you want!",
+        "category": "Visual Scripts",
+        "tags": [
+            "art",
+            "hat",
+            "player"
+        ],
+        "path": "./downloads/Scripts/Visual/_custom_hat.zip"
+    },
+    {
+        "title": "Hat - Santa Hat",
+        "description": "Give Dustman a Santa Hat!",
+        "category": "Visual Scripts",
+        "tags": [
+            "art",
+            "hat",
+            "player"
+        ],
+        "path": "./downloads/Scripts/Visual/_santa_hat.zip"
+    },
+    {
+        "title": "Seamless",
+        "description": "Use a seamless texture to create a seamlss background! Can modify alpha value. See: <a href=\"https://atlas.dustforce.com/13090/cyclone\" target=\"_blank\">https://atlas.dustforce.com/13090/cyclone</a>",
+        "category": "Visual Scripts",
+        "tags": [
+            "art",
+            "layers"
+        ],
+        "path": "./downloads/Scripts/Visual/_seamless.zip"
+    },
+    {
+        "title": "Time Of Day Fog",
+        "description": "Modify the fog trigger in a level according to the players system clock",
+        "category": "Visual Scripts",
+        "tags": [
+            "fog",
+            "clock"
+        ],
+        "path": "./downloads/Scripts/Visual/_time_of_day_fog.zip"
+    },
+    {
+        "title": "Custom Music",
+        "description": "Add custom music to your level",
+        "category": "Audio Scripts",
+        "tags": [
+            "music"
+        ],
+        "path": "./downloads/Scripts/Audio/custom_music.cpp"
+    },
+    {
+        "title": "Enemy Death Sound",
+        "description": "Play a custom sound when an enemy dies",
+        "category": "Audio Scripts",
+        "tags": [
+            "entity",
+            "sound"
+        ],
+        "path": "./downloads/Scripts/Audio/enemy_death_sound.cpp"
+    },
+    {
+        "title": "Metronome",
+        "description": "Spawn a metronome sound trigger at an X,Y location. No embeds needed ",
+        "category": "Audio Scripts",
+        "tags": [
+            "sound",
+            "trigger"
+        ],
+        "path": "./downloads/Scripts/Audio/metronome.as"
+    },
+    {
+        "title": "Multiple Custom Music Triggers",
+        "description": "Embed mulitple custom songs and tie their playing to triggers",
+        "category": "Audio Scripts",
+        "tags": [
+            "music",
+            "trigger"
+        ],
+        "path": "./downloads/Scripts/Audio/multiple_custom_music_trigger.cpp"
+    },
+    {
+        "title": "One-time Audio",
+        "description": "Play a custom audio file one time",
+        "category": "Audio Scripts",
+        "tags": [
+            "sound",
+            "trigger"
+        ],
+        "path": "./downloads/Scripts/Audio/one_time_audio.cpp"
+    },
+    {
+        "title": "Auto-jorf Helper",
+        "description": "Makes jorfs easy",
+        "category": "Tool Scripts",
+        "tags": [
+            "tool",
+            "jorf"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/autojorf.cpp"
+    },
+    {
+        "title": "Camera Area Path Viewer",
+        "description": "View the actual area the camera shows in editor",
+        "category": "Editor Scripts",
+        "tags": [
+            "tool",
+            "camera",
+            "editor",
+            "visual"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/camera_area_view.cpp"
+    },
+    {
+        "title": "Checkpoint Splits",
+        "description": "Provides in-game splits functionality with checkpoints",
+        "category": "Tool Scripts",
+        "tags": [
+            "tool",
+            "plugin",
+            "checkpoint"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/checkpoint_splits.as"
+    },
+    {
+        "title": "Collision Rays",
+        "description": "Shows when player is colliding with a surface",
+        "category": "Tool Scripts",
+        "tags": [
+            "tool",
+            "collision",
+            "visual"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/collision_rays.as"
+    },
+    {
+        "title": "Create Information Log",
+        "description": "Generates a list of statistics every frame to console",
+        "category": "Tool Scripts",
+        "tags": [
+            "tool",
+            "console",
+            "information"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/create_log.as"
+    },
+    {
+        "title": "Default Trigger Plugin",
+        "description": "Select ANY trigger and use N to save it. Now you can use N to 'reclick' the trigger at any point",
+        "category": "Editor Scripts",
+        "tags": [
+            "editor",
+            "plugin",
+            "trigger"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/default_fog_trigger.as"
+    },
+    {
+        "title": "Generate Entity Information",
+        "description": "Generate a list of entity information to console",
+        "category": "Tool Scripts",
+        "tags": [
+            "tool",
+            "console",
+            "information"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/entity_info_dump.cpp"
+    },
+    {
+        "title": "Filth Projections",
+        "description": "More advanced filth projections then built-in dustmod version",
+        "category": "Tool Scripts",
+        "tags": [
+            "tool",
+            "visual"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/filth_projections.as"
+    },
+    {
+        "title": "Fog Trigger Helper",
+        "description": "Quickly create basic fog triggers",
+        "category": "Tool Scripts",
+        "tags": [
+            "tool",
+            "fog",
+            "visual",
+            "trigger",
+            "editor"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/fog_helper.as"
+    },
+    {
+        "title": "Force Camera Path",
+        "description": "When player enters trigger zone, force player to specific camera path",
+        "category": "Tool Scripts",
+        "tags": [
+            "tool",
+            "camera",
+            "editor",
+            "trigger"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/force_camera_helper.as"
+    },
+    {
+        "title": "Free Tera",
+        "description": "Aligns player making teras 'free'",
+        "category": "Tool Scripts",
+        "tags": [
+            "tool",
+            "tera",
+            "trigger"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/free_tera.cpp"
+    },
+    {
+        "title": "ID Entity & Trigger Inspector Plugin",
+        "description": "Provides the ID when hovering over an entity or trigger in editor",
+        "category": "Editor Scripts",
+        "tags": [
+            "tool",
+            "plugin",
+            "editor"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/id_inspector_plugin.cpp"
+    },
+    {
+        "title": "Internal Clock Checker",
+        "description": "Checks the difference between internal game clock and real time. Prints to console",
+        "category": "Tool Scripts",
+        "tags": [
+            "tool",
+            "console",
+            "information",
+            "clock"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/internal_clock_check.as"
+    },
+    {
+        "title": "Jump Fix On Editor Respawn ",
+        "description": "Gives you an extra aircharge after using editor anywhere",
+        "category": "Tool Scripts",
+        "tags": [
+            "tool",
+            "editor",
+            "respawn"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/jump_fix.cpp"
+    },
+    {
+        "title": "Key Door Helper",
+        "description": "Gives a visual representation of how keys and doors are linked",
+        "category": "Tool Scripts",
+        "tags": [
+            "tool",
+            "visual",
+            "keydoor"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/keydoor_helper.as"
+    },
+    {
+        "title": "Ledge Cancel Tracker Plugin",
+        "description": "Check frames spent in hover during a ledge cancel",
+        "category": "Tool Scripts",
+        "tags": [
+            "tool",
+            "plugin",
+            "ledge-cancel"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/_ledge_cancel_tracker.cpp"
+    },
+    {
+        "title": "Legacy Low Percent Plugin",
+        "description": "Due to change in low% behavior, this recreates  deathwarp abuse and ending attack abuse",
+        "category": "Tool Scripts",
+        "tags": [
+            "plugin",
+            "low-percent",
+            "dust"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/legacy_low_percent.cpp"
+    },
+    {
+        "title": "Map Utilities",
+        "description": "Mass modify levels by quickly changing tiles, filth, or other features",
+        "category": "Tool Scripts",
+        "tags": [
+            "tool",
+            "editor",
+            "trigger"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/map_utils.cpp"
+    },
+    {
+        "title": "On Hurt",
+        "description": "Tie an event to when an enemy strikes the player",
+        "category": "Tool Scripts",
+        "tags": [
+            "tool",
+            "event",
+            "trigger"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/on_hurt.as"
+    },
+    {
+        "title": "Print Time",
+        "description": "Prints time to console",
+        "category": "Tool Scripts",
+        "tags": [
+            "tool",
+            "clock",
+            "console"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/print_time.as"
+    },
+    {
+        "title": "Prop ID Checker",
+        "description": "Declare a set region and print all prop IDs to console",
+        "category": "Tool Scripts",
+        "tags": [
+            "tool",
+            "console",
+            "prop"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/prop_ids.as"
+    },
+    {
+        "title": "Prop Path",
+        "description": "Place curved props as well as randomize prop motion",
+        "category": "Tool Scripts",
+        "tags": [
+            "tool",
+            "prop",
+            "editor"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/prop_path.cpp"
+    },
+    {
+        "title": "Ruler Plugin",
+        "description": "Use 'A' to measure the distance between blocks. Use 'M' to give coordinates",
+        "category": "Editor Scripts",
+        "tags": [
+            "tool",
+            "plugin",
+            "information",
+            "editor"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/ruler.as"
+    },
+    {
+        "title": "Temporary Spawn",
+        "description": "Use 'F' to place a temporary spawn, 'ALT+F' to delete",
+        "category": "Tool Scripts",
+        "tags": [
+            "tool",
+            "editor",
+            "respawn"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/temporary_spawn.as"
+    },
+    {
+        "title": "Tera Drop Calculator",
+        "description": "Find how wide a tera is. Use Jump & Taunt to activate the test. Output is printed to console",
+        "category": "Tool Scripts",
+        "tags": [
+            "tool",
+            "tera",
+            "console"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/tera_drop_calculator.cpp"
+    },
+    {
+        "title": "Trigger Time",
+        "description": "Change Music & Ambience trigger by a numerical value, rather than a slider",
+        "category": "Tool Scripts",
+        "tags": [
+            "tool",
+            "trigger",
+            "editor",
+            "music",
+            "sound"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/trigger_time.as"
+    },
+    {
+        "title": "Twirlie Trainer",
+        "description": "Provides a visual representation on the timing of twirlies",
+        "category": "Tool Scripts",
+        "tags": [
+            "tool",
+            "visual",
+            "twirly"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/twirlie_trainer.as"
+    },
+    {
+        "title": "Advance Tools",
+        "description": "Advance Editor Features. Find up to date and compiled version here: <a href=\"https://github.com/cmann1/adv-tools\" target=\"_blank\">https://github.com/cmann1/adv-tools</a>",
+        "category": "Editor Scripts",
+        "tags": [
+            "plugin",
+            "editor",
+            "prop",
+            "visual"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/_advance_tools.zip"
+    },
+    {
+        "title": "Dust Tracker 2 Plugin",
+        "description": "Track dust in the level including entities. Helpful for hard to see, or obscure dust",
+        "category": "Editor Scripts",
+        "tags": [
+            "tool",
+            "plugin",
+            "dust",
+            "information",
+            "visual",
+            "replay"
+        ],
+        "path": "./downloads/Scripts/Editor_Tools/_dusttracker_2.zip"
+    },
+    {
+        "title": "Bastion Stairs",
+        "description": "Climb the staircase! Use JUMP to proceed and DASH to switch directions. See: <a href=\"https://atlas.dustforce.com/11030/bastion-stairs\" target=\"_blank\">https://atlas.dustforce.com/11030/bastion-stairs</a>",
+        "category": "Major Gameplay Overhaul Scripts",
+        "tags": [
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/bastion_stairs.as"
+    },
+    {
+        "title": "Cassette",
+        "description": "Jump between platforms in rhythm like the cassette challenges in Celeste! See: <a href=\"https://atlas.dustforce.com/10979/cassette-tape\" target=\"_blank\">https://atlas.dustforce.com/10979/cassette-tape</a>",
+        "category": "Major Gameplay Overhaul Scripts",
+        "tags": [
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/cassette.as"
+    },
+    {
+        "title": "Crimson Boss",
+        "description": "Based off the boss from I Wanna Kill the Kamilia 2. Must embed files. See: <a href=\"https://atlas.dustforce.com/12640/crimson-boss\" target=\"_blank\">https://atlas.dustforce.com/12640/crimson-boss</a>",
+        "category": "Major Gameplay Overhaul Scripts",
+        "tags": [
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/crimson_boss.as"
+    },
+    {
+        "title": "Golf",
+        "description": "Time to prove your worth on the golf course! See: <a href=\"https://atlas.dustforce.com/11440/par-time-duster\" target=\"_blank\">https://atlas.dustforce.com/11440/par-time-duster</a>",
+        "category": "Major Gameplay Overhaul Scripts",
+        "tags": [
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/golf.as"
+    },
+    {
+        "title": "Labyrinth",
+        "description": "I hope your maze find skills are polished! See: <a href=\"https://atlas.dustforce.com/11477/labyrinth\" target=\"_blank\">https://atlas.dustforce.com/11477/labyrinth</a>",
+        "category": "Major Gameplay Overhaul Scripts",
+        "tags": [
+            "new-gameplay",
+            "mystery"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/labyrinth.cpp"
+    },
+    {
+        "title": "Marble Roll (Demo)",
+        "description": "A physics demonstration of 3D Marble movement",
+        "category": "Major Gameplay Overhaul Scripts",
+        "tags": [
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/marble_roll_demo.cpp"
+    },
+    {
+        "title": "Multiplayer - Air Hockey",
+        "description": "Grab a friend and play air hockey! Mouse controls. See: <a href=\"https://atlas.dustforce.com/12775/air-hockey\" target=\"_blank\">https://atlas.dustforce.com/12775/air-hockey</a> ",
+        "category": "Major Gameplay Overhaul Scripts",
+        "tags": [
+            "new-gameplay",
+            "mouse",
+            "multiplayer"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/multiplayer_air_hockey.as"
+    },
+    {
+        "title": "Multiplayer - Battleship",
+        "description": "You need two to sink some ships. See: <a href=\"https://atlas.dustforce.com/11539/event-horizon\" target=\"_blank\">https://atlas.dustforce.com/11539/event-horizon</a>",
+        "category": "Major Gameplay Overhaul Scripts",
+        "tags": [
+            "new-gameplay",
+            "mouse",
+            "multiplayer"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/multiplayer_battleship.as"
+    },
+    {
+        "title": "Pong",
+        "description": "A good test of any game's capabilities is if you can play Pong",
+        "category": "Major Gameplay Overhaul Scripts",
+        "tags": [
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/pong.cpp"
+    },
+    {
+        "title": "Reaction Test",
+        "description": "Finish the level by reacting to the commands on screen!",
+        "category": "Major Gameplay Overhaul Scripts",
+        "tags": [
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/reaction_test.as"
+    },
+    {
+        "title": "Scrabble",
+        "description": "Description for 16 points. Need to embed a world list 'words.txt'",
+        "category": "Major Gameplay Overhaul Scripts",
+        "tags": [
+            "new-gameplay",
+            "mouse"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/scrabble.cpp"
+    },
+    {
+        "title": "100m Freestyle",
+        "description": "Dustforce has never looked this good. See: <a href=\"https://atlas.dustforce.com/12531/100m-freestyle\" target=\"_blank\">https://atlas.dustforce.com/12531/100m-freestyle</a>",
+        "category": "Major Gameplay Overhaul Packages",
+        "tags": [
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/_100m_freestyle.zip"
+    },
+    {
+        "title": "3D",
+        "description": "Dustforce now in 3D!! See: <a href=\"https://atlas.dustforce.com/13258/protodimensionetics\" target=\"_blank\">https://atlas.dustforce.com/13258/protodimensionetics</a>",
+        "category": "Major Gameplay Overhaul Packages",
+        "tags": [
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/_3d_gameplay.zip"
+    },
+    {
+        "title": "Batman",
+        "description": "They think I'm hiding in the shadows, but I am the shadows",
+        "category": "Major Gameplay Overhaul Packages",
+        "tags": [
+            "plugin",
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/_batman.zip"
+    },
+    {
+        "title": "Canyon Plane Shooter",
+        "description": "3D Place Combat",
+        "category": "Major Gameplay Overhaul Packages",
+        "tags": [
+            "new-gameplay",
+            "mouse"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/_canyon_plane_shooter.zip"
+    },
+    {
+        "title": "Chaos",
+        "description": "Only for the brave. See: <a href=\"https://atlas.dustforce.com/12427/the-lab-chaos\" target=\"_blank\">https://atlas.dustforce.com/12427/the-lab-chaos</a>",
+        "category": "Major Gameplay Overhaul Packages",
+        "tags": [
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/_chaos_dustforce.zip"
+    },
+    {
+        "title": "Chess",
+        "description": "400 Elo or bust",
+        "category": "Major Gameplay Overhaul Packages",
+        "tags": [
+            "new-gameplay",
+            "mouse"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/_chess.zip"
+    },
+    {
+        "title": "Dusters Rift",
+        "description": "What is dustforce was a MOBA?",
+        "category": "Major Gameplay Overhaul Packages",
+        "tags": [
+            "new-gameplay",
+            "mouse"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/_dusters_rift.zip"
+    },
+    {
+        "title": "Helping Hands",
+        "description": "This plugin adds the latest in janitorial accessories!",
+        "category": "Major Gameplay Overhaul Packages",
+        "tags": [
+            "plugin",
+            "multiplayer"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/_helping_hands.zip"
+    },
+    {
+        "title": "Knighthall Simulator",
+        "description": "Dustman is causing trouble again. Defend your home! See: <a href=\"https://atlas.dustforce.com/9262/knight-hall-simulator\" target=\"_blank\">https://atlas.dustforce.com/9262/knight-hall-simulator</a>",
+        "category": "Major Gameplay Overhaul Packages",
+        "tags": [
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/_knighthall_simulator.zip"
+    },
+    {
+        "title": "Multiplayer - Hot Potato",
+        "description": "Play hot potato with this plugin!",
+        "category": "Major Gameplay Overhaul Packages",
+        "tags": [
+            "new-gameplay",
+            "multiplayer"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/_multiplayer_hotpotato.zip"
+    },
+    {
+        "title": "Pokermans",
+        "description": "Got to catch them all in this plugin! See: <a href=\"https://atlas.dustforce.com/12747/pokeballs\" target=\"_blank\">https://atlas.dustforce.com/12747/pokeballs</a>",
+        "category": "Major Gameplay Overhaul Packages",
+        "tags": [
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/_pokermans_plugin.zip"
+    },
+    {
+        "title": "PRNG",
+        "description": "Create pseduorandom levels. Define pre-made level chunks and combine them together. See: <a href=\"https://atlas.dustforce.com/10820/dustforce-arcade\" target=\"_blank\">https://atlas.dustforce.com/10820/dustforce-arcade</a>",
+        "category": "Major Gameplay Overhaul Packages",
+        "tags": [
+            "new-gameplay",
+            "rng"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/_prng.zip"
+    },
+    {
+        "title": "Rhythm Force",
+        "description": "My years of DDR training has made me ready for this. See: <a href=\"https://atlas.dustforce.com/11937/rhythmforce-shoot-em-up\" target=\"_blank\">https://atlas.dustforce.com/11937/rhythmforce-shoot-em-up</a>",
+        "category": "Major Gameplay Overhaul Packages",
+        "tags": [
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/_rhythm_force.zip"
+    },
+    {
+        "title": "Rifle",
+        "description": "Big laser = big fun. See: <a href=\"https://atlas.dustforce.com/11174/weapons-facility\" target=\"_blank\">https://atlas.dustforce.com/11174/weapons-facility</a>",
+        "category": "Major Gameplay Overhaul Packages",
+        "tags": [
+            "laser",
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/_rifle.zip"
+    },
+    {
+        "title": "Rope Dart",
+        "description": "Use TAUNT to throw the dart and travel as high speeds towards walls. See: <a href=\"https://atlas.dustforce.com/9527/way-of-the-ninja\" target=\"_blank\">https://atlas.dustforce.com/9527/way-of-the-ninja</a>",
+        "category": "Major Gameplay Overhaul Packages",
+        "tags": [
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/_rope_dart.zip"
+    },
+    {
+        "title": "Shooter Man",
+        "description": "Dustforce but with guns",
+        "category": "Major Gameplay Overhaul Packages",
+        "tags": [
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/_shooter_man.zip"
+    },
+    {
+        "title": "Super Meat Boy",
+        "description": "Is Dustforce just game engine at this point? See: <a href=\"https://atlas.dustforce.com/10361/blood-trail\" target=\"_blank\">https://atlas.dustforce.com/10361/blood-trail</a>",
+        "category": "Major Gameplay Overhaul Packages",
+        "tags": [
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/_super_meat_boy.zip"
+    },
+    {
+        "title": "Multiplayer - Survival Balance Patch",
+        "description": "A multiplayer survival mode balance patch.",
+        "category": "Major Gameplay Overhaul Packages",
+        "tags": [
+            "new-gameplay",
+            "multiplayer"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/_survival_patch.zip"
+    },
+    {
+        "title": "Target Test",
+        "description": "Break the targets. See: <a href=\"https://atlas.dustforce.com/9910/target-test\" target=\"_blank\">https://atlas.dustforce.com/9910/target-test</a>",
+        "category": "Major Gameplay Overhaul Packages",
+        "tags": [
+            "new-gameplay"
+        ],
+        "path": "./downloads/Scripts/Major_Overhaul/_target_test.zip"
+    }
+]
