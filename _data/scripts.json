@@ -2,7 +2,7 @@
     {
         "title": "Lib Folder",
         "description": "This is a 'master' lib folder, including files from many prominent members of the community. All scripts hosted here will be setup to use this lib. The base lib folder comes from: <a href=\"https://github.com/cmann1/DustScripts\" target=\"_blank\">https://github.com/cmann1/DustScripts</a>",
-        "category": "Embeds",
+        "category": "Dependencies",
         "tags": [
             "embeds"
         ],
@@ -11,83 +11,11 @@
     {
         "title": "Module Folder",
         "description": "Some scripts will use this folder. Folder comes from: <a href=\"https://github.com/cmann1/DustScripts\" target=\"_blank\">https://github.com/cmann1/DustScripts</a>",
-        "category": "Embeds",
+        "category": "Dependencies",
         "tags": [
             "Embeds"
         ],
         "path": "./downloads/Scripts/Embeds/module.zip"
-    },
-    {
-        "title": "Script Template - Editor",
-        "description": "A template file to build your own scripts",
-        "category": "Templates",
-        "tags": [
-            "template"
-        ],
-        "path": "./downloads/Scripts/Templates/editor_template.cpp"
-    },
-    {
-        "title": "Script Template - Main",
-        "description": "A template file to build your own scripts",
-        "category": "Templates",
-        "tags": [
-            "template"
-        ],
-        "path": "./downloads/Scripts/Templates/main_template.cpp"
-    },
-    {
-        "title": "Script Template - Main Alternate",
-        "description": "A template file to build your own scripts",
-        "category": "Templates",
-        "tags": [
-            "template"
-        ],
-        "path": "./downloads/Scripts/Templates/main_template_alt.cpp"
-    },
-    {
-        "title": "Script Template - Player",
-        "description": "A template file to build your own scripts",
-        "category": "Templates",
-        "tags": [
-            "template"
-        ],
-        "path": "./downloads/Scripts/Templates/player_template.cpp"
-    },
-    {
-        "title": "Script Template - Pool",
-        "description": "A template file to build your own scripts",
-        "category": "Templates",
-        "tags": [
-            "template"
-        ],
-        "path": "./downloads/Scripts/Templates/pool_template.cpp"
-    },
-    {
-        "title": "Script Template - Queue",
-        "description": "A template file to build your own scripts",
-        "category": "Templates",
-        "tags": [
-            "template"
-        ],
-        "path": "./downloads/Scripts/Templates/queue_template.cpp"
-    },
-    {
-        "title": "Script Template - Subframe",
-        "description": "A template file to build your own scripts",
-        "category": "Templates",
-        "tags": [
-            "template"
-        ],
-        "path": "./downloads/Scripts/Templates/subframe_template.cpp"
-    },
-    {
-        "title": "Script Template - Trigger",
-        "description": "A template file to build your own scripts",
-        "category": "Templates",
-        "tags": [
-            "template"
-        ],
-        "path": "./downloads/Scripts/Templates/trigger_template.cpp"
     },
     {
         "title": "Action Character Swap (No RNG)",
@@ -2191,7 +2119,7 @@
     },
     {
         "title": "Canyon Plane Shooter",
-        "description": "3D Place Combat",
+        "description": "3D Place Combat. See: <a href=\"https://atlas.dustforce.com/14249/canyon\" target=\"_blank\">https://atlas.dustforce.com/14249/canyon</a> ",
         "category": "Major Gameplay Overhaul Packages",
         "tags": [
             "new-gameplay",
@@ -2210,7 +2138,7 @@
     },
     {
         "title": "Chess",
-        "description": "400 Elo or bust",
+        "description": "400 Elo or bust. See: <a href=\"https://atlas.dustforce.com/13706/beginner-chess\" target=\"_blank\">https://atlas.dustforce.com/13706/beginner-chess</a>",
         "category": "Major Gameplay Overhaul Packages",
         "tags": [
             "new-gameplay",
@@ -2220,7 +2148,7 @@
     },
     {
         "title": "Dusters Rift",
-        "description": "What is dustforce was a MOBA?",
+        "description": "What if dustforce was a MOBA? See: <a href=\"https://atlas.dustforce.com/13782/dusters-rift\" target=\"_blank\">https://atlas.dustforce.com/13782/dusters-rift</a>",
         "category": "Major Gameplay Overhaul Packages",
         "tags": [
             "new-gameplay",
@@ -2341,4 +2269,76 @@
         ],
         "path": "./downloads/Scripts/Major_Overhaul/target_test.zip"
     }
+	{
+        "title": "Script Template - Editor",
+        "description": "A template file to build your own scripts",
+        "category": "Templates",
+        "tags": [
+            "template"
+        ],
+        "path": "./downloads/Scripts/Templates/editor_template.cpp"
+    },
+    {
+        "title": "Script Template - Main",
+        "description": "A template file to build your own scripts",
+        "category": "Templates",
+        "tags": [
+            "template"
+        ],
+        "path": "./downloads/Scripts/Templates/main_template.cpp"
+    },
+    {
+        "title": "Script Template - Main Alternate",
+        "description": "A template file to build your own scripts",
+        "category": "Templates",
+        "tags": [
+            "template"
+        ],
+        "path": "./downloads/Scripts/Templates/main_template_alt.cpp"
+    },
+    {
+        "title": "Script Template - Player",
+        "description": "A template file to build your own scripts",
+        "category": "Templates",
+        "tags": [
+            "template"
+        ],
+        "path": "./downloads/Scripts/Templates/player_template.cpp"
+    },
+    {
+        "title": "Script Template - Pool",
+        "description": "A template file to build your own scripts",
+        "category": "Templates",
+        "tags": [
+            "template"
+        ],
+        "path": "./downloads/Scripts/Templates/pool_template.cpp"
+    },
+    {
+        "title": "Script Template - Queue",
+        "description": "A template file to build your own scripts",
+        "category": "Templates",
+        "tags": [
+            "template"
+        ],
+        "path": "./downloads/Scripts/Templates/queue_template.cpp"
+    },
+    {
+        "title": "Script Template - Subframe",
+        "description": "A template file to build your own scripts",
+        "category": "Templates",
+        "tags": [
+            "template"
+        ],
+        "path": "./downloads/Scripts/Templates/subframe_template.cpp"
+    },
+    {
+        "title": "Script Template - Trigger",
+        "description": "A template file to build your own scripts",
+        "category": "Templates",
+        "tags": [
+            "template"
+        ],
+        "path": "./downloads/Scripts/Templates/trigger_template.cpp"
+    },
 ]
