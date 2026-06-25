@@ -2268,7 +2268,7 @@
             "new-gameplay"
         ],
         "path": "./downloads/Scripts/Major_Overhaul/target_test.zip"
-    }
+    },
 	{
         "title": "Script Template - Editor",
         "description": "A template file to build your own scripts",
@@ -2340,5 +2340,5 @@
             "template"
         ],
         "path": "./downloads/Scripts/Templates/trigger_template.cpp"
-    },
+    }
 ]
