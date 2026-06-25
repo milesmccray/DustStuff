@@ -22,8 +22,8 @@ title: Dust Stuff
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Dustforce Scripts and Sprites!
-baseurl: "/DustStuff"
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: "https://duststuff.com"
 twitter_username: 
 github_username:  milesmccray
 
