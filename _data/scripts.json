@@ -13,7 +13,7 @@
         "description": "Some scripts will use this folder. Folder comes from: <a href=\"https://github.com/cmann1/DustScripts\" target=\"_blank\">https://github.com/cmann1/DustScripts</a>",
         "category": "Dependencies",
         "tags": [
-            "Embeds"
+            "embeds"
         ],
         "path": "./downloads/Scripts/Embeds/module.zip"
     },
