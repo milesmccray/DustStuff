@@ -9,7 +9,8 @@
 <body class="{{ page.body_class }}">
 	{% include navbar.html %}
 
-	<div class="page-content {% if page.url == '/' %}home-content{% endif %}">
+	<div
+		class="page-content {% if page.url == '/' %}home-content{% elsif page.url == '/resources.html' %}resources-content{% endif %}">
 		{{ content }}
 	</div>
 
