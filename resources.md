@@ -1,8 +1,10 @@
 ---
 layout: default
 title: Resources
+body_class: resources-page
 ---
-# Community Resources
+<div class="resource-grid">
+<div class="resource-card" markdown="1">
 
 ### More Dustforce
 - [Dustmod - msg555/C/Fimbz](https://dustmod.com/)
@@ -11,22 +13,37 @@ title: Resources
 - [Matchmaking - Alexspeedy](https://dustkid.com/matchmaking)
 - [Demo Version (Browser) - Hitbox](https://www.humblebundle.com/play/asmjs/dustforce_asm_demo/demo)
 
+</div>
 
-### Guides & Tutorials & Information
-- [Dustforce Wiki - gonX](https://www.dustforce.info/)
+<div class="resource-card" markdown="1">
+
+### Guides and Tutorials
 - [Beginner to Intermediate Guide - czyss](https://github.com/czyys/dustforceguide)
-- [Dustforce Helpdesk Youtube Channel - Community](https://www.youtube.com/@DustforceHelpdesk)
+- [Dustforce Wiki - gonX](https://www.dustforce.info/)
+- [Dustforce Helpdesk YouTube - Community](https://www.youtube.com/@DustforceHelpdesk)
 - [DustAPI - msg555](https://dustapi.readthedocs.io/en/stable/)
-- [Dustforce Any% Guide - TMC ](https://docs.google.com/spreadsheets/d/1aQ49T6lz9e4kAzLLDIfGbEjXsb8IwKrcKQOXgDDiTkk/edit?gid=0#gid=0)
+- [Dustforce Any% Guide - TMC](https://docs.google.com/spreadsheets/d/1aQ49T6lz9e4kAzLLDIfGbEjXsb8IwKrcKQOXgDDiTkk/edit)
 
-### Tools
+</div>
+
+<div class="resource-card" markdown="1">
+
+### Tools & Editors
+- [Sprite Recolor Tool - C](https://github.com/cmann1/dustforce-recolour/)
 - [Hitbox Viewer - jdude0822](https://dustforce-hitbox-viewer.onrender.com/)
-- [Recolor Tool - C](https://github.com/cmann1/dustforce-recolour/)
-- [Dustcourse (Level Viewer) - whatisaphone](https://dustcourse.com/)
-- [Dusted (Replay Editor) - Alexspeedy](https://github.com/AlexMorson/dusted)
+- [Dusted Replay Editor - Alexspeedy](https://github.com/AlexMorson/dusted)
+- [Dustcourse Level Viewer -whatisaphone](https://dustcourse.com/)
 
-### Mapaking References
-- [Sublayer Guide - C](https://pastebin.com/Ua5gfDYU)
-- [Sprite Reference - C](https://github.com/cmann1/PropUtils/tree/master/files/sprite_reference)
-- [Prop Reference - C](https://github.com/cmann1/PropUtils/tree/master/files/prop_reference)
-- [Tiles Reference - C](https://github.com/cmann1/PropUtils/tree/master/files/tiles_reference)
+</div>
+
+<div class="resource-card" markdown="1">
+
+### Mapmaking References
+- [Sprite Reference](https://github.com/cmann1/PropUtils/tree/master/files/sprite_reference)
+- [Prop Reference](https://github.com/cmann1/PropUtils/tree/master/files/prop_reference)
+- [Tiles Reference](https://github.com/cmann1/PropUtils/tree/master/files/tiles_reference)
+- [Sublayer Guide](https://pastebin.com/Ua5gfDYU)
+
+</div>
+
+</div>
