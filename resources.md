@@ -13,17 +13,17 @@ title: Resources
 
 
 ### Guides & Tutorials & Information
-- [Dustforce Any% Guide - TMC ](https://docs.google.com/spreadsheets/d/1aQ49T6lz9e4kAzLLDIfGbEjXsb8IwKrcKQOXgDDiTkk/edit?gid=0#gid=0)
-- [Dustforce Helpdesk Youtube Channel - Community](https://www.youtube.com/@DustforceHelpdesk)
-- [Beginner to Intermediate Guide - czyss](https://github.com/czyys/dustforceguide)
-- [DustAPI - msg555](https://dustapi.readthedocs.io/en/stable/)
 - [Dustforce Wiki - gonX](https://www.dustforce.info/)
+- [Beginner to Intermediate Guide - czyss](https://github.com/czyys/dustforceguide)
+- [Dustforce Helpdesk Youtube Channel - Community](https://www.youtube.com/@DustforceHelpdesk)
+- [DustAPI - msg555](https://dustapi.readthedocs.io/en/stable/)
+- [Dustforce Any% Guide - TMC ](https://docs.google.com/spreadsheets/d/1aQ49T6lz9e4kAzLLDIfGbEjXsb8IwKrcKQOXgDDiTkk/edit?gid=0#gid=0)
 
 ### Tools
 - [Hitbox Viewer - jdude0822](https://dustforce-hitbox-viewer.onrender.com/)
-- [Dusted (Replay Editor) - Alexspeedy](https://github.com/AlexMorson/dusted)
 - [Recolor Tool - C](https://github.com/cmann1/dustforce-recolour/)
 - [Dustcourse (Level Viewer) - whatisaphone](https://dustcourse.com/)
+- [Dusted (Replay Editor) - Alexspeedy](https://github.com/AlexMorson/dusted)
 
 ### Mapaking References
 - [Sublayer Guide - C](https://pastebin.com/Ua5gfDYU)
