@@ -39,10 +39,10 @@ body_class: resources-page
 <div class="resource-card" markdown="1">
 
 ### Mapmaking References
-- [Sprite Reference](https://github.com/cmann1/PropUtils/tree/master/files/sprite_reference)
-- [Prop Reference](https://github.com/cmann1/PropUtils/tree/master/files/prop_reference)
-- [Tiles Reference](https://github.com/cmann1/PropUtils/tree/master/files/tiles_reference)
-- [Sublayer Guide](https://pastebin.com/Ua5gfDYU)
+- [Sprite Reference - C](https://github.com/cmann1/PropUtils/tree/master/files/sprite_reference)
+- [Prop Reference - C](https://github.com/cmann1/PropUtils/tree/master/files/prop_reference)
+- [Tiles Reference - C](https://github.com/cmann1/PropUtils/tree/master/files/tiles_reference)
+- [Sublayer Guide - C](https://pastebin.com/Ua5gfDYU)
 
 </div>
 
