@@ -12,7 +12,7 @@ I recommend grabbing the `lib` and `module` folder and putting them into your `D
 Every script here that includes these dependencies "expects" to be within a folder to compile properly. Example `Dustforce/user/script_src/my-new-map/shadows.cpp`. If you don't want to put it in a separate folder, remove the `../` from the `#include` at the top of the script.
 
 #### To Compile
-Open up your level in Dustforce and make sure the leveltype is set to dustmod. Dustforce looks for scripts within your `/script_src` folder. So in the earlier example, open up the script tab in your level and type `my-new-map/shadows.cpp
+Open up your level in Dustforce and make sure the leveltype is set to dustmod. Dustforce looks for scripts within your `/script_src` folder. So in the earlier example, open up the script tab in your level and type `my-new-map/shadows.cpp`
 
 </div>
 </details>
