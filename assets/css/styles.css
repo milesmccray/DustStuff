@@ -1,55 +1,69 @@
+/* ============================================================
+   DUST STUFF — STYLE SHEET
+   ============================================================
+   How this file is organized:
+     1. Variables (:root)      — change colors/spacing here first
+     2. Base elements          — body, headings, links, code
+     3. Layout utilities        — reusable width/centering classes
+     4. Navbar
+     5. Tables (scripts page)
+     6. Sprite cards (sprites page)
+     7. Preview modal
+     8. Details/notes callout
+     9. Resource cards
+     10. Page-specific overrides — one block per page, grouped together
+     11. Footer
+   ============================================================ */
+
+
+/* ------------------------------------------------------------
+   1. VARIABLES
+   ------------------------------------------------------------ */
 :root {
+  /* Backgrounds & surfaces */
   --color-bg: #f4f5f7;
+  /* page background */
   --color-surface: #ffffff;
+  /* cards, nav, tables */
+  --color-panel: #f5f6f8;
+  /* details box, resource cards */
+  --color-border: #e2e4e9;
+
+  /* Text */
   --color-text: #1f2329;
   --color-text-muted: #5c6470;
-  --color-accent: #5b4fd1;
-  --color-accent-hover: #c769a3;
-  --color-accent-sprites: #d4751f;
-  --color-accent-sprites-hover: #b25f15;
-  --color-border: #e2e4e9;
-  --color-panel: #f5f6f8;
-  --color-nav-text: #853685;
+
+  /* Links (used site-wide unless a page overrides it below) */
   --color-link: #853685;
   --color-link-hover: #c769a3;
-  --color-scripts-link: #5b4fd1;
+  --color-nav-text: #853685;
+
+  /* Accent colors — scripts page uses purple, sprites page uses orange */
+  --color-accent: #5b4fd1;
+  --color-accent-scripts-link: #5b4fd1;
+  --color-accent-sprites: #d4751f;
+  --color-accent-sprites-hover: #b25f15;
+
+  /* Hover Color */
+  --color-hover-tint: #c769a3;
+
+  /* Spacing & shape */
   --radius: 8px;
+  --content-width: 80%;
+  /* the standard centered-content width used by headings, tables, details, pre blocks */
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
 }
 
-/***** CODE *****/
-code {
-  background-color: #eeeded;
-  padding: 2px 6px;
-  border-radius: 4px;
-  font-family: Consolas, Monaco, monospace;
-  color: #9e4545;
-}
 
-pre {
-  width: 70%;
-  margin: 16px auto;
-  padding: 16px;
-  background-color: #2b2b2b;
-  color: #f8f8f2;
-  border-radius: var(--radius);
-  overflow-x: auto;
-  box-shadow: var(--shadow);
-}
-
-pre code {
-  background: none;
-  padding: 0;
-  color: inherit;
-}
-
+/* ------------------------------------------------------------
+   2. BASE ELEMENTS
+   ------------------------------------------------------------ */
 body {
   font-family: "Segoe UI", Arial, Helvetica, sans-serif;
   background-color: var(--color-bg);
   color: var(--color-text);
   line-height: 1.5;
   margin: 0;
-
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -77,7 +91,12 @@ h2 {
   border-bottom: 4px solid var(--color-accent);
   padding-bottom: 10px;
   margin: 0 auto 20px auto;
-  max-width: 70%;
+  max-width: var(--content-width);
+}
+
+/* sprites page swaps the underline to its own accent color */
+body.sprites-page h2 {
+  border-bottom-color: var(--color-accent-sprites);
 }
 
 p {
@@ -85,30 +104,68 @@ p {
   color: var(--color-text-muted);
 }
 
-/* unvisited link */
-a:link {
+code {
+  background-color: #eeeded;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: Consolas, Monaco, monospace;
+  color: #9e4545;
+}
+
+pre {
+  padding: 16px;
+  background-color: #2b2b2b;
+  color: #f8f8f2;
+  border-radius: var(--radius);
+  overflow-x: auto;
+  box-shadow: var(--shadow);
+}
+
+pre code {
+  background: none;
+  padding: 0;
+  color: inherit;
+}
+
+/* Links — base/default state. Pages can override --color-link and
+   --color-link-hover individually instead of repeating full rules
+   (see section 10 for how each page does this). */
+a:link,
+a:visited {
   color: var(--color-link);
   text-decoration: none;
   transition: color 0.15s ease;
 }
 
-/* visited link */
-a:visited {
-  color: var(--color-link);
-}
-
-/* mouse over link */
 a:hover {
   color: var(--color-link-hover);
   text-decoration: underline;
 }
 
-/* selected link */
 a:active {
   color: var(--color-link);
 }
 
-/***** NAVBAR *****/
+
+/* ------------------------------------------------------------
+   3. LAYOUT UTILITIES
+   Reusable classes
+   ------------------------------------------------------------ */
+.content-width {
+  width: var(--content-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Generic "page intro text" padding */
+.page-intro {
+  padding-left: 24px;
+}
+
+
+/* ------------------------------------------------------------
+   4. NAVBAR
+   ------------------------------------------------------------ */
 nav {
   display: flex;
   gap: 4px;
@@ -121,7 +178,8 @@ nav {
   box-shadow: var(--shadow);
 }
 
-nav a {
+nav a:link,
+nav a:visited {
   color: var(--color-nav-text);
   font-weight: 600;
   padding: 10px 16px;
@@ -136,19 +194,14 @@ nav a:hover {
   text-decoration: none;
 }
 
-nav a:link,
-nav a:visited {
-  color: var(--color-nav-text);
-}
 
-
-
-
-/***** TABLES *****/
+/* ------------------------------------------------------------
+   5. TABLES (scripts page)
+   ------------------------------------------------------------ */
 table {
   border-collapse: separate;
   border-spacing: 0;
-  width: 70%;
+  width: var(--content-width);
   white-space: nowrap;
   margin: 0 auto 28px auto;
   background-color: var(--color-surface);
@@ -178,33 +231,11 @@ td {
   border-bottom: 1px solid var(--color-border);
 }
 
-tr:last-child td {
-  border-bottom: none;
-}
 
-/* Targets even rows */
-tr:nth-child(even) {
-  background-color: #fafafc;
-}
 
-/*** TABLE COLUMN HEADER ROW (Name, Description, Tags, Download) ***/
-table:nth-child(odd) th {
-  background-color: #5845c4;
-}
-
-table:nth-child(even) th {
-  background-color: #2e6fd6;
-}
-
-/***** SPRITE CARDS *****/
-.sprite-card a {
-  color: var(--color-accent-sprites);
-}
-
-.sprite-card a:hover {
-  color: var(--color-accent-sprites-hover);
-}
-
+/* ------------------------------------------------------------
+   6. SPRITE CARDS (sprites page)
+   ------------------------------------------------------------ */
 .sprite-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -253,6 +284,14 @@ table:nth-child(even) th {
   box-sizing: border-box;
 }
 
+.sprite-card a {
+  color: var(--color-accent-sprites);
+}
+
+.sprite-card a:hover {
+  color: var(--color-accent-sprites-hover);
+}
+
 .sprite-card button {
   margin-top: 8px;
   padding: 8px 16px;
@@ -274,7 +313,10 @@ table:nth-child(even) th {
   transform: scale(0.97);
 }
 
-/***** PREVIEW MODAL *****/
+
+/* ------------------------------------------------------------
+   7. PREVIEW MODAL (sprite image popup)
+   ------------------------------------------------------------ */
 .preview-modal {
   display: none;
   position: fixed;
@@ -312,118 +354,19 @@ table:nth-child(even) th {
   color: var(--color-accent);
 }
 
-/***** HOMEPAGE *****/
-.home-content {
-  padding-left: 24px;
-}
 
-.resources-content {
-  padding-left: 24px;
-}
-
-.page-content {
-  flex: 1;
-}
-
-.site-footer {
-  text-align: center;
-  padding: 16px;
-  color: var(--color-text-muted);
-  font-size: 14px;
-  border-top: 1px solid var(--color-border);
-  background-color: var(--color-surface);
-  margin-top: 24px;
-}
-
-/***** SCRIPTS PAGE *****/
-body.scripts-page .page-content>h1,
-body.scripts-page .page-content>h4,
-body.scripts-page .page-content>p {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-body.scripts-page .page-content>h1 {
-  text-align: center;
-}
-
-body.scripts-page .page-content a:link,
-body.scripts-page .page-content a:visited {
-  color: var(--color-scripts-link);
-}
-
-body.scripts-page a:hover {
-  color: var(--color-accent-hover);
-}
-
-
-/***** SPRITES PAGE INTRO *****/
-body.sprites-page .page-content>h1,
-body.sprites-page .page-content>h4,
-body.sprites-page .page-content>h5,
-body.sprites-page .page-content>p,
-body.sprites-page .page-content>pre {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-body.sprites-page .page-content>h1 {
-  text-align: center;
-}
-
-body.sprites-page .page-content>h4,
-body.sprites-page .page-content>h5 {
-  color: var(--color-text);
-}
-
-body.sprites-page .page-content>p {
-  color: var(--color-text);
-}
-
-body.sprites-page h2 {
-  border-bottom-color: var(--color-accent-sprites);
-}
-
-body.sprites-page a:hover {
-  color: var(--color-accent-hover);
-}
-
-/* RESOURCES */
-body.resources-page a:hover {
-  color: var(--color-accent-hover);
-}
-
-/* HOME */
-body.home-page a:hover {
-  color: var(--color-accent-hover);
-}
-
+/* ------------------------------------------------------------
+   8. DETAILS / NOTES CALLOUT
+   Used by the collapsible "Script Notes" / "Sprite Notes" boxes.
+   ------------------------------------------------------------ */
 details {
-  width: 70%;
+  width: var(--content-width);
   margin: 0 auto 24px auto;
   background: var(--color-panel);
   border: 2px solid #000;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   overflow: hidden;
-
-}
-
-details>div {
-  padding: 2px 28px 14px 28px;
-  font-size: 16px;
-  line-height: 1.6;
-  color: var(--color-text);
-}
-
-details>div h1,
-details>div h2,
-details>div h3,
-details>div h4,
-details>div p {
-  margin-top: 0;
 }
 
 summary {
@@ -453,6 +396,25 @@ details[open] summary::after {
   padding-bottom: 6px;
 }
 
+details>div {
+  padding: 2px 28px 14px 28px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+details>div h1,
+details>div h2,
+details>div h3,
+details>div h4,
+details>div p {
+  margin-top: 0;
+}
+
+
+/* ------------------------------------------------------------
+   9. RESOURCE CARDS (resources page)
+   ------------------------------------------------------------ */
 .resource-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -460,7 +422,6 @@ details[open] summary::after {
   row-gap: 80px;
   width: 60%;
   margin: 0 auto;
-
 }
 
 .resource-card {
@@ -474,4 +435,84 @@ details[open] summary::after {
   text-align: center;
   margin-top: 0;
   margin-bottom: 12px;
+}
+
+
+/* ------------------------------------------------------------
+   10. PAGE-SPECIFIC OVERRIDES
+   ------------------------------------------------------------ */
+
+/* --- Home page --- */
+body.home-page .page-content {
+  padding-left: 24px;
+}
+
+/* --- Scripts page --- */
+body.scripts-page .page-content>h1,
+body.scripts-page .page-content>h4,
+body.scripts-page .page-content>p {
+  width: var(--content-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body.scripts-page .page-content>h1 {
+  text-align: center;
+}
+
+body.scripts-page .page-content a:link,
+body.scripts-page .page-content a:visited {
+  color: var(--color-accent-scripts-link);
+}
+
+/* --- Sprites page --- */
+body.sprites-page .page-content>h1,
+body.sprites-page .page-content>h4,
+body.sprites-page .page-content>h5,
+body.sprites-page .page-content>p,
+body.sprites-page .page-content>pre {
+  width: var(--content-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body.sprites-page .page-content>h1 {
+  text-align: center;
+}
+
+body.sprites-page .page-content>h4,
+body.sprites-page .page-content>h5,
+body.sprites-page .page-content>p {
+  color: var(--color-text);
+}
+
+/* --- Resources page --- */
+body.resources-page .page-content {
+  padding-left: 24px;
+}
+
+/*  Specific Page Hover Color */
+body.home-page a:hover,
+body.scripts-page a:hover,
+body.sprites-page a:hover,
+body.resources-page a:hover {
+  color: var(--color-hover-tint);
+}
+
+
+/* ------------------------------------------------------------
+   11. FOOTER
+   ------------------------------------------------------------ */
+.page-content {
+  flex: 1;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 16px;
+  color: var(--color-text-muted);
+  font-size: 14px;
+  border-top: 1px solid var(--color-border);
+  background-color: var(--color-surface);
+  margin-top: 24px;
 }
