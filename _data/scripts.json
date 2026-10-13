@@ -1247,7 +1247,7 @@
     },
     {
         "title": "Layer Controller",
-        "description": "Shift the draw order of layers",
+        "description": "Shift the draw order of layers, scaling of layers, visibility of layers",
         "category": "Visual Scripts",
         "tags": [
             "layers",
@@ -1266,16 +1266,6 @@
             "dust"
         ],
         "path": "./downloads/Scripts/Visual/layer_dustblocks.cpp"
-    },
-    {
-        "title": "Layer Hider",
-        "description": "Hide one layer from being drawn",
-        "category": "Visual Scripts",
-        "tags": [
-            "layers",
-            "draw-order"
-        ],
-        "path": "./downloads/Scripts/Visual/layer_hider.as"
     },
     {
         "title": "Letter Box",

@@ -16,7 +16,6 @@ array<layer_properties> initialize_layers(array<layer_properties> layers) {
     }
     for(int i=layers.length(); i<NUM_LAYERS; i++) {
         layers.insertLast(layer_properties(i, DEFAULT_SCALE[i], true));
-        //puts("layer "+i+" scale "+layers[i].scale);
     }
     return layers;
 }
@@ -54,7 +53,7 @@ class script {
     }
     
     void set_layer_properties(array<layer_properties> properties, int collision_layer, float transition_period) {
-        set_layer_properties(properties, collision_layer, 0, false);
+        set_layer_properties(properties, collision_layer, transition_period, false);
     }
     
     void set_layer_properties(array<layer_properties> properties, int collision_layer, float transition_period, bool transition_first) {
@@ -68,6 +67,8 @@ class script {
         else {
             layer_delta = array<float>(properties.length, 0);
             for(uint i = 0; i < properties.length; i++) {
+                // draw order and visibility can't be tweened, so they either
+                // change immediately or when the scale transition finishes
                 if(!transition_first) {
                     active_layers[i].draw_order = goal_layers[i].draw_order;
                     active_layers[i].visible = goal_layers[i].visible;
@@ -104,7 +105,6 @@ class script {
             else {
                 g.layer_scale(i, DEFAULT_SCALE[i]);
             }
-            
             
             if(hide_layers) {
                 g.layer_visible(i, active_layers[i].visible);
@@ -191,7 +191,13 @@ class layer_control_trigger : cloneable_trigger_base {
     bool apply_in_editor = false;
     
     [text] int collision = DEFAULT_COLLISION;
-    [text] array<layer_properties> layers;
+    
+    [text|tooltip:"The layer currently being edited (0 - 22).\nChanging this will update the vars UI"]
+    int layer_index = 0;
+    
+    [text|tooltip:"Draw order, scale and visibility of the layer selected above"]
+    layer_properties layer;
+    [hidden] array<layer_properties> layers;
     
     [boolean|tooltip:"if the transition time is not instant, this decides whether to\napply other changes before or after the scaling finishes"]
     bool transition_first = false;
@@ -205,6 +211,25 @@ class layer_control_trigger : cloneable_trigger_base {
         active_this_frame = false;
         layers = initialize_layers(layers);
         collision = valid_collision(collision) ? collision : DEFAULT_COLLISION;
+        layer_index = clamp_index(layer_index);
+        layer = layers[layer_index];
+    }
+    
+    int clamp_index(int i) {
+        if(i < 0) return 0;
+        if(i >= NUM_LAYERS) return NUM_LAYERS - 1;
+        return i;
+    }
+    
+    void editor_var_changed(var_info@ v) {
+        if(v.get_name(0) == "layer_index") {
+            layer_index = clamp_index(layer_index);
+            layer = layers[layer_index];
+        }
+        else if(v.get_name(0) == "layer") {
+            layers[layer_index] = layer.clone();
+        }
+        self.editor_sync_vars_menu();
     }
     
     void editor_step() {
@@ -292,7 +317,9 @@ class layer_properties {
     bool debug=false;
     
     layer_properties() {
-        layer_properties(0,1, true);
+        draw_order = 0;
+        scale = 1;
+        visible = true;
     }
     
     layer_properties(float index, float size, bool vis) {
